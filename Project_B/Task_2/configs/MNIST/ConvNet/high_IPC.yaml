@@ -1,0 +1,34 @@
+dataset: MNIST
+device: [0]
+
+ipc: 3000
+syn_steps: 25
+expert_epochs: 2
+lr_img: 1
+lr_teacher: 0.01
+buffer_path: ../buffer/buffers/old_experts
+data_path: ../dataset
+ema_decay: 0.9995
+Iteration: 5000
+batch_syn: 32
+
+num_eval: 1
+eval_it: 100
+skip_first_eva: False
+epoch_eval_train: 20
+
+lr_y: 2.0
+Momentum_y: 0.9
+threshold: 1.0
+pix_init: samples_predicted_correctly
+
+Sequential_Generation: False
+min_start_epoch: 30
+max_start_epoch: 47
+expansion_end_epoch: 1000
+current_max_start_epoch: 10
+
+
+lr_lr: 0.00001
+zca: False
+
