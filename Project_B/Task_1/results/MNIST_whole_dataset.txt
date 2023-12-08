@@ -1,0 +1,45 @@
+ConvNet(
+  (features): Sequential(
+    (0): Conv2d(1, 128, kernel_size=(3, 3), stride=(1, 1), padding=(3, 3))
+    (1): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (2): ReLU(inplace=True)
+    (3): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (4): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (6): ReLU(inplace=True)
+    (7): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (8): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (10): ReLU(inplace=True)
+    (11): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Linear(in_features=2048, out_features=10, bias=True)
+)
+Epoch [1/20], Loss: 0.1606, Accuracy: 96.17%
+Epoch [2/20], Loss: 0.0535, Accuracy: 98.54%
+Epoch [3/20], Loss: 0.0405, Accuracy: 98.85%
+Epoch [4/20], Loss: 0.0332, Accuracy: 99.07%
+Epoch [5/20], Loss: 0.0288, Accuracy: 99.17%
+Epoch [6/20], Loss: 0.0250, Accuracy: 99.31%
+Epoch [7/20], Loss: 0.0223, Accuracy: 99.37%
+Epoch [8/20], Loss: 0.0197, Accuracy: 99.44%
+Epoch [9/20], Loss: 0.0179, Accuracy: 99.54%
+Epoch [10/20], Loss: 0.0161, Accuracy: 99.58%
+Epoch [11/20], Loss: 0.0144, Accuracy: 99.65%
+Epoch [12/20], Loss: 0.0133, Accuracy: 99.69%
+Epoch [13/20], Loss: 0.0122, Accuracy: 99.74%
+Epoch [14/20], Loss: 0.0114, Accuracy: 99.77%
+Epoch [15/20], Loss: 0.0106, Accuracy: 99.82%
+Epoch [16/20], Loss: 0.0101, Accuracy: 99.81%
+Epoch [17/20], Loss: 0.0096, Accuracy: 99.83%
+Epoch [18/20], Loss: 0.0093, Accuracy: 99.85%
+Epoch [19/20], Loss: 0.0091, Accuracy: 99.86%
+Epoch [20/20], Loss: 0.0090, Accuracy: 99.86%
+Total training time: 313.22 seconds
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register count_avgpool() for <class 'torch.nn.modules.pooling.AvgPool2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Accuracy on the test set: 99.41%
+FLOPs for the model: 48429056.0

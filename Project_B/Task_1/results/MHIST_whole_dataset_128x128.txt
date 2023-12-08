@@ -1,0 +1,61 @@
+ConvNet(
+  (features): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (2): ReLU(inplace=True)
+    (3): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (4): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (6): ReLU(inplace=True)
+    (7): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (8): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (10): ReLU(inplace=True)
+    (11): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (12): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (14): ReLU(inplace=True)
+    (15): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (16): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (18): ReLU(inplace=True)
+    (19): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (20): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (22): ReLU(inplace=True)
+    (23): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (24): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): GroupNorm(128, 128, eps=1e-05, affine=True)
+    (26): ReLU(inplace=True)
+    (27): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Linear(in_features=128, out_features=2, bias=True)
+)
+Epoch [1/20], Loss: 0.6102, HP_F1Score: 82.51, SSA_F1Score: 2.71, weighted_F1Score: 59.39%
+Epoch [2/20], Loss: 0.5985, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [3/20], Loss: 0.5950, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [4/20], Loss: 0.5914, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [5/20], Loss: 0.5885, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [6/20], Loss: 0.5847, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [7/20], Loss: 0.5806, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [8/20], Loss: 0.5768, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [9/20], Loss: 0.5744, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [10/20], Loss: 0.5705, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [11/20], Loss: 0.5678, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [12/20], Loss: 0.5642, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [13/20], Loss: 0.5620, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [14/20], Loss: 0.5595, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [15/20], Loss: 0.5575, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [16/20], Loss: 0.5557, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [17/20], Loss: 0.5543, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [18/20], Loss: 0.5535, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [19/20], Loss: 0.5528, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Epoch [20/20], Loss: 0.5524, HP_F1Score: 83.06, SSA_F1Score: 0.00, weighted_F1Score: 59.00%
+Total training time: 202.82 seconds
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register count_avgpool() for <class 'torch.nn.modules.pooling.AvgPool2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Test Set: HP_F1score: 77.42%, SSA_F1score: 0.00%, weighted_F1Score: 48.89%
+FLOPs for the model: 862432128.0

@@ -1,0 +1,49 @@
+Synthetic Data File: GM_res_MHIST_ConvNet7_real_50ipc.pt
+----Evaluation model_train = ConvNet7, model_eval = ConvNet7, iteration = 1
+[2023-12-01 19:08:37] Evaluate: epoch = 0100 train time = 18.8640 s train loss = 0.390892
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6125, SSA_F1Score: 0.4796, weighted_F1Score: 0.5635
+----Evaluation model_train = ConvNet7, model_eval = ConvNet7, iteration = 2
+[2023-12-01 19:08:59] Evaluate: epoch = 0100 train time = 19.0528 s train loss = 0.366864
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4000, SSA_F1Score: 0.4824, weighted_F1Score: 0.4303
+----Evaluation model_train = ConvNet7, model_eval = ConvNet7, iteration = 3
+[2023-12-01 19:09:22] Evaluate: epoch = 0100 train time = 19.0213 s train loss = 0.384907
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4567, SSA_F1Score: 0.5126, weighted_F1Score: 0.4773
+----Evaluation model_train = ConvNet7, model_eval = ConvNet7, iteration = 4
+[2023-12-01 19:09:44] Evaluate: epoch = 0100 train time = 19.1136 s train loss = 0.367597
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.5670, SSA_F1Score: 0.4457, weighted_F1Score: 0.5223
+----Evaluation model_train = ConvNet7, model_eval = ConvNet7, iteration = 5
+[2023-12-01 19:10:07] Evaluate: epoch = 0100 train time = 19.2820 s train loss = 0.375254
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6392, SSA_F1Score: 0.4081, weighted_F1Score: 0.5541
+---------------- Average Results  -------------
+Average SSA_F1: 0.4657, Average HP_F1: 0.5351, Average wF1: 0.5095
+--------------------------------------------------------------
+--------------------------------------------------------------
+----Evaluation model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 1
+[2023-12-01 19:10:33] Evaluate: epoch = 0100 train time = 22.5360 s train loss = 0.002086
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6836, SSA_F1Score: 0.3094, weighted_F1Score: 0.5457
+----Evaluation model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 2
+[2023-12-01 19:10:59] Evaluate: epoch = 0100 train time = 22.3280 s train loss = 0.002414
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.5256, SSA_F1Score: 0.4657, weighted_F1Score: 0.5035
+----Evaluation model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 3
+[2023-12-01 19:11:25] Evaluate: epoch = 0100 train time = 22.3171 s train loss = 0.002387
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.2267, SSA_F1Score: 0.5183, weighted_F1Score: 0.3341
+----Evaluation model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 4
+[2023-12-01 19:11:51] Evaluate: epoch = 0100 train time = 22.3373 s train loss = 0.002323
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.5514, SSA_F1Score: 0.4234, weighted_F1Score: 0.5042
+----Evaluation model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 5
+[2023-12-01 19:12:17] Evaluate: epoch = 0100 train time = 22.1731 s train loss = 0.002088
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4617, SSA_F1Score: 0.4737, weighted_F1Score: 0.4661
+---------------- Average Results  -------------
+Average SSA_F1: 0.4381, Average HP_F1: 0.4898, Average wF1: 0.4707
+--------------------------------------------------------------
+--------------------------------------------------------------

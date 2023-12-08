@@ -1,0 +1,783 @@
+eval_it_pool:  [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 175, 180, 185, 190, 195, 200]
+class c = 0: 1545 real images
+class c = 1: 630 real images
+real images channel 0, mean = -0.0000, std = 1.0000
+real images channel 1, mean = -0.0000, std = 1.0000
+real images channel 2, mean = -0.0000, std = 1.0000
+initialize synthetic data from random noise
+[2023-11-30 08:40:55] training begins
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 0
+[2023-11-30 08:41:07] Evaluate: epoch = 0020 train time = 4.6411 s train loss = 0.575468
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0065, SSA_F1Score: 0.5393, weighted_F1Score: 0.2028
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 0
+[2023-11-30 08:41:20] Evaluate: epoch = 0020 train time = 4.7758 s train loss = 0.012258
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6268, SSA_F1Score: 0.4021, weighted_F1Score: 0.5440
+----------------------------------------
+[2023-11-30 08:43:08] iter = 0000, loss = 866.0411
+[2023-11-30 08:44:55] iter = 0001, loss = 858.4126
+[2023-11-30 08:46:42] iter = 0002, loss = 852.1821
+[2023-11-30 08:48:29] iter = 0003, loss = 860.5331
+[2023-11-30 08:50:15] iter = 0004, loss = 872.7719
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 5
+[2023-11-30 08:50:22] Evaluate: epoch = 0020 train time = 3.9844 s train loss = 0.592093
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7613, SSA_F1Score: 0.0842, weighted_F1Score: 0.5118
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 5
+[2023-11-30 08:50:31] Evaluate: epoch = 0020 train time = 4.6406 s train loss = 0.015690
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0032, SSA_F1Score: 0.5389, weighted_F1Score: 0.2006
+----------------------------------------
+[2023-11-30 08:52:18] iter = 0005, loss = 866.1538
+[2023-11-30 08:54:04] iter = 0006, loss = 863.0242
+[2023-11-30 08:55:51] iter = 0007, loss = 861.4451
+[2023-11-30 08:57:37] iter = 0008, loss = 868.2384
+[2023-11-30 08:59:24] iter = 0009, loss = 863.3116
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 10
+[2023-11-30 08:59:32] Evaluate: epoch = 0020 train time = 3.9849 s train loss = 0.592151
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.3808, SSA_F1Score: 0.4958, weighted_F1Score: 0.4232
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 10
+[2023-11-30 08:59:43] Evaluate: epoch = 0020 train time = 4.6567 s train loss = 0.013803
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6514, SSA_F1Score: 0.3599, weighted_F1Score: 0.5440
+----------------------------------------
+[2023-11-30 09:01:29] iter = 0010, loss = 851.9671
+[2023-11-30 09:03:16] iter = 0011, loss = 855.3453
+[2023-11-30 09:05:03] iter = 0012, loss = 861.4208
+[2023-11-30 09:06:50] iter = 0013, loss = 867.0967
+[2023-11-30 09:08:37] iter = 0014, loss = 860.1766
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 15
+[2023-11-30 09:08:51] Evaluate: epoch = 0020 train time = 3.9844 s train loss = 0.612044
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7714, SSA_F1Score: 0.0373, weighted_F1Score: 0.5009
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 15
+[2023-11-30 09:08:59] Evaluate: epoch = 0020 train time = 4.7031 s train loss = 0.012800
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0495, SSA_F1Score: 0.5306, weighted_F1Score: 0.2268
+----------------------------------------
+[2023-11-30 09:10:46] iter = 0015, loss = 847.4714
+[2023-11-30 09:12:32] iter = 0016, loss = 861.8536
+[2023-11-30 09:14:19] iter = 0017, loss = 864.0217
+[2023-11-30 09:16:07] iter = 0018, loss = 862.7625
+[2023-11-30 09:17:54] iter = 0019, loss = 865.7473
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 20
+[2023-11-30 09:18:01] Evaluate: epoch = 0020 train time = 3.9375 s train loss = 0.605057
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7742, SSA_F1Score: 0.0000, weighted_F1Score: 0.4889
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 20
+[2023-11-30 09:18:09] Evaluate: epoch = 0020 train time = 4.6094 s train loss = 0.020231
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6115, SSA_F1Score: 0.3356, weighted_F1Score: 0.5099
+----------------------------------------
+[2023-11-30 09:19:56] iter = 0020, loss = 859.9972
+[2023-11-30 09:21:43] iter = 0021, loss = 860.9743
+[2023-11-30 09:23:30] iter = 0022, loss = 856.5206
+[2023-11-30 09:25:29] iter = 0023, loss = 863.1634
+[2023-11-30 09:27:32] iter = 0024, loss = 856.1828
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 25
+[2023-11-30 09:27:40] Evaluate: epoch = 0020 train time = 4.5559 s train loss = 0.606932
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4797, SSA_F1Score: 0.4444, weighted_F1Score: 0.4667
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 25
+[2023-11-30 09:27:49] Evaluate: epoch = 0020 train time = 5.2609 s train loss = 0.012219
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.5039, SSA_F1Score: 0.4627, weighted_F1Score: 0.4887
+----------------------------------------
+[2023-11-30 09:29:51] iter = 0025, loss = 865.2873
+[2023-11-30 09:31:53] iter = 0026, loss = 864.7940
+[2023-11-30 09:33:55] iter = 0027, loss = 854.6861
+[2023-11-30 09:35:56] iter = 0028, loss = 862.1195
+[2023-11-30 09:37:58] iter = 0029, loss = 866.0614
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 30
+[2023-11-30 09:38:06] Evaluate: epoch = 0020 train time = 4.4531 s train loss = 0.589152
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7725, SSA_F1Score: 0.0727, weighted_F1Score: 0.5146
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 30
+[2023-11-30 09:38:14] Evaluate: epoch = 0020 train time = 5.2656 s train loss = 0.021661
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6966, SSA_F1Score: 0.2688, weighted_F1Score: 0.5389
+----------------------------------------
+[2023-11-30 09:40:16] iter = 0030, loss = 860.1547
+[2023-11-30 09:42:18] iter = 0031, loss = 866.8261
+[2023-11-30 09:44:19] iter = 0032, loss = 870.0307
+[2023-11-30 09:46:20] iter = 0033, loss = 866.4572
+[2023-11-30 09:48:22] iter = 0034, loss = 858.4913
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 35
+[2023-11-30 09:48:30] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.605532
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.5621, SSA_F1Score: 0.4019, weighted_F1Score: 0.5031
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 35
+[2023-11-30 09:48:39] Evaluate: epoch = 0020 train time = 5.2656 s train loss = 0.010491
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0129, SSA_F1Score: 0.5401, weighted_F1Score: 0.2072
+----------------------------------------
+[2023-11-30 09:50:41] iter = 0035, loss = 861.4869
+[2023-11-30 09:52:43] iter = 0036, loss = 862.6867
+[2023-11-30 09:54:45] iter = 0037, loss = 861.8551
+[2023-11-30 09:56:46] iter = 0038, loss = 850.4365
+[2023-11-30 09:58:48] iter = 0039, loss = 866.7055
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 40
+[2023-11-30 09:58:56] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.599908
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0064, SSA_F1Score: 0.5371, weighted_F1Score: 0.2020
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 40
+[2023-11-30 09:59:05] Evaluate: epoch = 0020 train time = 5.2826 s train loss = 0.017296
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7434, SSA_F1Score: 0.1876, weighted_F1Score: 0.5386
+----------------------------------------
+[2023-11-30 10:01:06] iter = 0040, loss = 862.3760
+[2023-11-30 10:03:08] iter = 0041, loss = 858.7481
+[2023-11-30 10:05:10] iter = 0042, loss = 860.0418
+[2023-11-30 10:07:12] iter = 0043, loss = 849.1496
+[2023-11-30 10:09:13] iter = 0044, loss = 854.1363
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 45
+[2023-11-30 10:09:21] Evaluate: epoch = 0020 train time = 4.5019 s train loss = 0.600930
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6144, SSA_F1Score: 0.3889, weighted_F1Score: 0.5313
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 45
+[2023-11-30 10:09:30] Evaluate: epoch = 0020 train time = 5.2866 s train loss = 0.018885
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6306, SSA_F1Score: 0.3847, weighted_F1Score: 0.5400
+----------------------------------------
+[2023-11-30 10:11:32] iter = 0045, loss = 870.2244
+[2023-11-30 10:13:33] iter = 0046, loss = 853.4158
+[2023-11-30 10:15:35] iter = 0047, loss = 870.5157
+[2023-11-30 10:17:36] iter = 0048, loss = 861.5095
+[2023-11-30 10:19:38] iter = 0049, loss = 859.5548
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 50
+[2023-11-30 10:19:46] Evaluate: epoch = 0020 train time = 4.4388 s train loss = 0.594622
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0000, SSA_F1Score: 0.5385, weighted_F1Score: 0.1984
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 50
+[2023-11-30 10:19:54] Evaluate: epoch = 0020 train time = 5.2500 s train loss = 0.018267
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6455, SSA_F1Score: 0.3082, weighted_F1Score: 0.5212
+----------------------------------------
+[2023-11-30 10:21:56] iter = 0050, loss = 860.8845
+[2023-11-30 10:23:57] iter = 0051, loss = 863.4118
+[2023-11-30 10:25:59] iter = 0052, loss = 859.2227
+[2023-11-30 10:28:00] iter = 0053, loss = 864.2796
+[2023-11-30 10:30:02] iter = 0054, loss = 870.9221
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 55
+[2023-11-30 10:30:10] Evaluate: epoch = 0020 train time = 4.4531 s train loss = 0.599083
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0000, SSA_F1Score: 0.5385, weighted_F1Score: 0.1984
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 55
+[2023-11-30 10:30:19] Evaluate: epoch = 0020 train time = 5.2358 s train loss = 0.014082
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.5480, SSA_F1Score: 0.4495, weighted_F1Score: 0.5117
+----------------------------------------
+[2023-11-30 10:32:20] iter = 0055, loss = 862.6035
+[2023-11-30 10:34:22] iter = 0056, loss = 862.3801
+[2023-11-30 10:36:24] iter = 0057, loss = 862.6776
+[2023-11-30 10:38:27] iter = 0058, loss = 858.7360
+[2023-11-30 10:40:30] iter = 0059, loss = 862.7885
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 60
+[2023-11-30 10:40:38] Evaluate: epoch = 0020 train time = 4.5486 s train loss = 0.594521
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0380, SSA_F1Score: 0.5412, weighted_F1Score: 0.2234
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 60
+[2023-11-30 10:40:47] Evaluate: epoch = 0020 train time = 5.3947 s train loss = 0.016310
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6766, SSA_F1Score: 0.2959, weighted_F1Score: 0.5363
+----------------------------------------
+[2023-11-30 10:42:50] iter = 0060, loss = 866.4520
+[2023-11-30 10:44:52] iter = 0061, loss = 860.0692
+[2023-11-30 10:46:55] iter = 0062, loss = 851.9343
+[2023-11-30 10:48:58] iter = 0063, loss = 856.6596
+[2023-11-30 10:51:01] iter = 0064, loss = 861.7156
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 65
+[2023-11-30 10:51:09] Evaluate: epoch = 0020 train time = 4.5312 s train loss = 0.605075
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7726, SSA_F1Score: 0.0427, weighted_F1Score: 0.5037
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 65
+[2023-11-30 10:51:18] Evaluate: epoch = 0020 train time = 5.3308 s train loss = 0.012635
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4351, SSA_F1Score: 0.4687, weighted_F1Score: 0.4475
+----------------------------------------
+[2023-11-30 10:53:21] iter = 0065, loss = 857.1656
+[2023-11-30 10:55:25] iter = 0066, loss = 862.9478
+[2023-11-30 10:57:28] iter = 0067, loss = 875.8501
+[2023-11-30 10:59:30] iter = 0068, loss = 856.2081
+[2023-11-30 11:01:32] iter = 0069, loss = 848.8936
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 70
+[2023-11-30 11:01:40] Evaluate: epoch = 0020 train time = 4.4678 s train loss = 0.594708
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7455, SSA_F1Score: 0.1470, weighted_F1Score: 0.5250
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 70
+[2023-11-30 11:01:49] Evaluate: epoch = 0020 train time = 5.2045 s train loss = 0.013563
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6304, SSA_F1Score: 0.3707, weighted_F1Score: 0.5347
+----------------------------------------
+[2023-11-30 11:03:51] iter = 0070, loss = 863.7156
+[2023-11-30 11:05:53] iter = 0071, loss = 866.9297
+[2023-11-30 11:07:54] iter = 0072, loss = 862.8488
+[2023-11-30 11:09:56] iter = 0073, loss = 867.6735
+[2023-11-30 11:11:58] iter = 0074, loss = 861.8835
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 75
+[2023-11-30 11:12:06] Evaluate: epoch = 0020 train time = 4.4388 s train loss = 0.599574
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7742, SSA_F1Score: 0.0000, weighted_F1Score: 0.4889
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 75
+[2023-11-30 11:12:15] Evaluate: epoch = 0020 train time = 5.2563 s train loss = 0.015597
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7291, SSA_F1Score: 0.1951, weighted_F1Score: 0.5324
+----------------------------------------
+[2023-11-30 11:14:16] iter = 0075, loss = 859.2699
+[2023-11-30 11:16:18] iter = 0076, loss = 863.8117
+[2023-11-30 11:18:20] iter = 0077, loss = 858.4985
+[2023-11-30 11:20:21] iter = 0078, loss = 869.6254
+[2023-11-30 11:22:23] iter = 0079, loss = 865.5630
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 80
+[2023-11-30 11:22:31] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.601761
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0000, SSA_F1Score: 0.5385, weighted_F1Score: 0.1984
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 80
+[2023-11-30 11:22:39] Evaluate: epoch = 0020 train time = 5.2356 s train loss = 0.016214
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7419, SSA_F1Score: 0.1760, weighted_F1Score: 0.5334
+----------------------------------------
+[2023-11-30 11:24:41] iter = 0080, loss = 868.3466
+[2023-11-30 11:26:42] iter = 0081, loss = 857.3209
+[2023-11-30 11:28:44] iter = 0082, loss = 868.2996
+[2023-11-30 11:30:45] iter = 0083, loss = 855.6716
+[2023-11-30 11:32:47] iter = 0084, loss = 864.1639
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 85
+[2023-11-30 11:32:55] Evaluate: epoch = 0020 train time = 4.4700 s train loss = 0.602179
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0346, SSA_F1Score: 0.5353, weighted_F1Score: 0.2191
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 85
+[2023-11-30 11:33:04] Evaluate: epoch = 0020 train time = 5.2500 s train loss = 0.012717
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.1241, SSA_F1Score: 0.5356, weighted_F1Score: 0.2757
+----------------------------------------
+[2023-11-30 11:35:05] iter = 0085, loss = 865.3336
+[2023-11-30 11:37:07] iter = 0086, loss = 861.7741
+[2023-11-30 11:39:09] iter = 0087, loss = 863.7238
+[2023-11-30 11:41:11] iter = 0088, loss = 862.7312
+[2023-11-30 11:43:13] iter = 0089, loss = 848.6343
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 90
+[2023-11-30 11:43:21] Evaluate: epoch = 0020 train time = 4.5000 s train loss = 0.609360
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4574, SSA_F1Score: 0.4347, weighted_F1Score: 0.4490
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 90
+[2023-11-30 11:43:30] Evaluate: epoch = 0020 train time = 5.2812 s train loss = 0.010869
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.1073, SSA_F1Score: 0.5331, weighted_F1Score: 0.2642
+----------------------------------------
+[2023-11-30 11:45:31] iter = 0090, loss = 858.6778
+[2023-11-30 11:47:33] iter = 0091, loss = 860.6283
+[2023-11-30 11:49:36] iter = 0092, loss = 853.7159
+[2023-11-30 11:51:38] iter = 0093, loss = 861.9121
+[2023-11-30 11:53:40] iter = 0094, loss = 861.7810
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 95
+[2023-11-30 11:53:55] Evaluate: epoch = 0020 train time = 4.4687 s train loss = 0.599763
+Train Score: HP_F1Score: 0.9474, SSA_F1Score: 0.9524, weighted_F1Score: 0.9499
+Test Score: HP_F1Score: 0.0000, SSA_F1Score: 0.5385, weighted_F1Score: 0.1984
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 95
+[2023-11-30 11:54:04] Evaluate: epoch = 0020 train time = 5.2656 s train loss = 0.016246
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0672, SSA_F1Score: 0.5296, weighted_F1Score: 0.2376
+----------------------------------------
+[2023-11-30 11:56:05] iter = 0095, loss = 858.7846
+[2023-11-30 11:58:07] iter = 0096, loss = 864.3235
+[2023-11-30 12:00:09] iter = 0097, loss = 863.3523
+[2023-11-30 12:02:11] iter = 0098, loss = 866.5299
+[2023-11-30 12:04:13] iter = 0099, loss = 872.3521
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 100
+[2023-11-30 12:04:21] Evaluate: epoch = 0020 train time = 4.5156 s train loss = 0.612006
+Train Score: HP_F1Score: 0.9009, SSA_F1Score: 0.8764, weighted_F1Score: 0.8887
+Test Score: HP_F1Score: 0.7742, SSA_F1Score: 0.0000, weighted_F1Score: 0.4889
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 100
+[2023-11-30 12:04:29] Evaluate: epoch = 0020 train time = 5.2669 s train loss = 0.016492
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.3943, SSA_F1Score: 0.4742, weighted_F1Score: 0.4237
+----------------------------------------
+[2023-11-30 12:06:31] iter = 0100, loss = 860.1780
+[2023-11-30 12:08:33] iter = 0101, loss = 864.4865
+[2023-11-30 12:10:35] iter = 0102, loss = 862.4564
+[2023-11-30 12:12:37] iter = 0103, loss = 868.1807
+[2023-11-30 12:14:39] iter = 0104, loss = 860.4877
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 105
+[2023-11-30 12:14:47] Evaluate: epoch = 0020 train time = 4.4857 s train loss = 0.602086
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7570, SSA_F1Score: 0.1098, weighted_F1Score: 0.5185
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 105
+[2023-11-30 12:14:56] Evaluate: epoch = 0020 train time = 5.2656 s train loss = 0.010261
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7274, SSA_F1Score: 0.2403, weighted_F1Score: 0.5479
+----------------------------------------
+[2023-11-30 12:16:57] iter = 0105, loss = 866.0089
+[2023-11-30 12:18:59] iter = 0106, loss = 869.0896
+[2023-11-30 12:21:01] iter = 0107, loss = 866.1049
+[2023-11-30 12:23:03] iter = 0108, loss = 859.6064
+[2023-11-30 12:25:05] iter = 0109, loss = 848.0128
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 110
+[2023-11-30 12:25:13] Evaluate: epoch = 0020 train time = 4.4853 s train loss = 0.595632
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7398, SSA_F1Score: 0.2140, weighted_F1Score: 0.5460
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 110
+[2023-11-30 12:25:22] Evaluate: epoch = 0020 train time = 5.2534 s train loss = 0.018936
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4807, SSA_F1Score: 0.4753, weighted_F1Score: 0.4787
+----------------------------------------
+[2023-11-30 12:27:24] iter = 0110, loss = 860.1915
+[2023-11-30 12:29:25] iter = 0111, loss = 857.8086
+[2023-11-30 12:31:27] iter = 0112, loss = 863.2723
+[2023-11-30 12:33:29] iter = 0113, loss = 853.0766
+[2023-11-30 12:35:31] iter = 0114, loss = 876.2385
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 115
+[2023-11-30 12:35:39] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.603179
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0032, SSA_F1Score: 0.5345, weighted_F1Score: 0.1990
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 115
+[2023-11-30 12:35:48] Evaluate: epoch = 0020 train time = 5.2344 s train loss = 0.011218
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.3035, SSA_F1Score: 0.4996, weighted_F1Score: 0.3758
+----------------------------------------
+[2023-11-30 12:37:49] iter = 0115, loss = 861.7519
+[2023-11-30 12:39:51] iter = 0116, loss = 857.7489
+[2023-11-30 12:41:54] iter = 0117, loss = 864.6631
+[2023-11-30 12:43:56] iter = 0118, loss = 853.3369
+[2023-11-30 12:45:58] iter = 0119, loss = 865.1688
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 120
+[2023-11-30 12:46:06] Evaluate: epoch = 0020 train time = 4.4699 s train loss = 0.610860
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7528, SSA_F1Score: 0.0998, weighted_F1Score: 0.5122
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 120
+[2023-11-30 12:46:15] Evaluate: epoch = 0020 train time = 5.2513 s train loss = 0.015185
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.3847, SSA_F1Score: 0.4864, weighted_F1Score: 0.4222
+----------------------------------------
+[2023-11-30 12:48:17] iter = 0120, loss = 849.6384
+[2023-11-30 12:50:19] iter = 0121, loss = 860.7209
+[2023-11-30 12:52:21] iter = 0122, loss = 863.7673
+[2023-11-30 12:54:23] iter = 0123, loss = 857.8906
+[2023-11-30 12:56:25] iter = 0124, loss = 868.3447
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 125
+[2023-11-30 12:56:33] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.598851
+Train Score: HP_F1Score: 0.9796, SSA_F1Score: 0.9804, weighted_F1Score: 0.9800
+Test Score: HP_F1Score: 0.0000, SSA_F1Score: 0.5385, weighted_F1Score: 0.1984
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 125
+[2023-11-30 12:56:42] Evaluate: epoch = 0020 train time = 5.3458 s train loss = 0.013735
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6902, SSA_F1Score: 0.2345, weighted_F1Score: 0.5222
+----------------------------------------
+[2023-11-30 12:58:44] iter = 0125, loss = 858.5275
+[2023-11-30 13:00:46] iter = 0126, loss = 872.3313
+[2023-11-30 13:02:49] iter = 0127, loss = 861.5883
+[2023-11-30 13:04:52] iter = 0128, loss = 856.3910
+[2023-11-30 13:06:55] iter = 0129, loss = 857.6508
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 130
+[2023-11-30 13:07:03] Evaluate: epoch = 0020 train time = 4.5000 s train loss = 0.600797
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7742, SSA_F1Score: 0.0000, weighted_F1Score: 0.4889
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 130
+[2023-11-30 13:07:11] Evaluate: epoch = 0020 train time = 5.2812 s train loss = 0.018713
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6823, SSA_F1Score: 0.3307, weighted_F1Score: 0.5527
+----------------------------------------
+[2023-11-30 13:09:14] iter = 0130, loss = 863.8788
+[2023-11-30 13:11:16] iter = 0131, loss = 856.8054
+[2023-11-30 13:13:18] iter = 0132, loss = 854.6863
+[2023-11-30 13:15:21] iter = 0133, loss = 868.1590
+[2023-11-30 13:17:22] iter = 0134, loss = 855.8555
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 135
+[2023-11-30 13:17:30] Evaluate: epoch = 0020 train time = 4.5009 s train loss = 0.617957
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0097, SSA_F1Score: 0.5386, weighted_F1Score: 0.2046
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 135
+[2023-11-30 13:17:39] Evaluate: epoch = 0020 train time = 5.2679 s train loss = 0.014943
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7446, SSA_F1Score: 0.0757, weighted_F1Score: 0.4981
+----------------------------------------
+[2023-11-30 13:19:41] iter = 0135, loss = 863.6085
+[2023-11-30 13:21:43] iter = 0136, loss = 858.5242
+[2023-11-30 13:23:45] iter = 0137, loss = 862.6565
+[2023-11-30 13:25:47] iter = 0138, loss = 855.8481
+[2023-11-30 13:27:49] iter = 0139, loss = 864.6264
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 140
+[2023-11-30 13:27:57] Evaluate: epoch = 0020 train time = 4.4531 s train loss = 0.606517
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7708, SSA_F1Score: 0.0055, weighted_F1Score: 0.4888
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 140
+[2023-11-30 13:28:06] Evaluate: epoch = 0020 train time = 5.2356 s train loss = 0.015776
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6936, SSA_F1Score: 0.2504, weighted_F1Score: 0.5303
+----------------------------------------
+[2023-11-30 13:30:08] iter = 0140, loss = 872.0635
+[2023-11-30 13:32:10] iter = 0141, loss = 857.8271
+[2023-11-30 13:34:12] iter = 0142, loss = 853.6834
+[2023-11-30 13:36:14] iter = 0143, loss = 858.5633
+[2023-11-30 13:38:16] iter = 0144, loss = 847.4263
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 145
+[2023-11-30 13:38:24] Evaluate: epoch = 0020 train time = 4.5170 s train loss = 0.594248
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.1060, SSA_F1Score: 0.5239, weighted_F1Score: 0.2600
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 145
+[2023-11-30 13:38:33] Evaluate: epoch = 0020 train time = 5.2669 s train loss = 0.016291
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4530, SSA_F1Score: 0.4739, weighted_F1Score: 0.4607
+----------------------------------------
+[2023-11-30 13:40:35] iter = 0145, loss = 863.0070
+[2023-11-30 13:42:37] iter = 0146, loss = 858.6825
+[2023-11-30 13:44:39] iter = 0147, loss = 870.8499
+[2023-11-30 13:46:41] iter = 0148, loss = 868.0060
+[2023-11-30 13:48:43] iter = 0149, loss = 864.4483
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 150
+[2023-11-30 13:48:51] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.610010
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0961, SSA_F1Score: 0.5326, weighted_F1Score: 0.2569
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 150
+[2023-11-30 13:49:00] Evaluate: epoch = 0020 train time = 5.2500 s train loss = 0.015532
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6348, SSA_F1Score: 0.3457, weighted_F1Score: 0.5283
+----------------------------------------
+[2023-11-30 13:51:02] iter = 0150, loss = 852.4157
+[2023-11-30 13:53:03] iter = 0151, loss = 865.5939
+[2023-11-30 13:55:06] iter = 0152, loss = 865.8218
+[2023-11-30 13:57:07] iter = 0153, loss = 867.1505
+[2023-11-30 13:59:09] iter = 0154, loss = 857.6722
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 155
+[2023-11-30 13:59:17] Evaluate: epoch = 0020 train time = 4.5017 s train loss = 0.604839
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0065, SSA_F1Score: 0.5393, weighted_F1Score: 0.2028
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 155
+[2023-11-30 13:59:26] Evaluate: epoch = 0020 train time = 5.3123 s train loss = 0.016573
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7576, SSA_F1Score: 0.0786, weighted_F1Score: 0.5074
+----------------------------------------
+[2023-11-30 14:01:28] iter = 0155, loss = 860.1828
+[2023-11-30 14:03:30] iter = 0156, loss = 858.1962
+[2023-11-30 14:05:32] iter = 0157, loss = 867.2940
+[2023-11-30 14:07:33] iter = 0158, loss = 857.9851
+[2023-11-30 14:09:35] iter = 0159, loss = 858.8745
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 160
+[2023-11-30 14:09:43] Evaluate: epoch = 0020 train time = 4.4840 s train loss = 0.603448
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7145, SSA_F1Score: 0.2893, weighted_F1Score: 0.5578
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 160
+[2023-11-30 14:09:52] Evaluate: epoch = 0020 train time = 5.2348 s train loss = 0.009585
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.5740, SSA_F1Score: 0.4421, weighted_F1Score: 0.5254
+----------------------------------------
+[2023-11-30 14:11:53] iter = 0160, loss = 868.8144
+[2023-11-30 14:13:55] iter = 0161, loss = 856.0156
+[2023-11-30 14:15:57] iter = 0162, loss = 862.8612
+[2023-11-30 14:17:59] iter = 0163, loss = 869.3096
+[2023-11-30 14:20:01] iter = 0164, loss = 856.5459
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 165
+[2023-11-30 14:20:09] Evaluate: epoch = 0020 train time = 4.4375 s train loss = 0.597209
+Train Score: HP_F1Score: 0.9899, SSA_F1Score: 0.9901, weighted_F1Score: 0.9900
+Test Score: HP_F1Score: 0.0000, SSA_F1Score: 0.5385, weighted_F1Score: 0.1984
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 165
+[2023-11-30 14:20:17] Evaluate: epoch = 0020 train time = 5.2538 s train loss = 0.015755
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7327, SSA_F1Score: 0.1067, weighted_F1Score: 0.5020
+----------------------------------------
+[2023-11-30 14:22:19] iter = 0165, loss = 844.7546
+[2023-11-30 14:24:21] iter = 0166, loss = 848.9281
+[2023-11-30 14:26:23] iter = 0167, loss = 855.8179
+[2023-11-30 14:28:24] iter = 0168, loss = 859.8925
+[2023-11-30 14:30:26] iter = 0169, loss = 862.8284
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 170
+[2023-11-30 14:30:34] Evaluate: epoch = 0020 train time = 4.5000 s train loss = 0.608703
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7720, SSA_F1Score: 0.0677, weighted_F1Score: 0.5125
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 170
+[2023-11-30 14:30:43] Evaluate: epoch = 0020 train time = 5.2825 s train loss = 0.013073
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4125, SSA_F1Score: 0.5014, weighted_F1Score: 0.4453
+----------------------------------------
+[2023-11-30 14:32:45] iter = 0170, loss = 864.6033
+[2023-11-30 14:34:47] iter = 0171, loss = 859.0323
+[2023-11-30 14:36:48] iter = 0172, loss = 858.2738
+[2023-11-30 14:38:50] iter = 0173, loss = 863.0905
+[2023-11-30 14:40:52] iter = 0174, loss = 861.6301
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 175
+[2023-11-30 14:41:00] Evaluate: epoch = 0020 train time = 4.4891 s train loss = 0.600426
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4341, SSA_F1Score: 0.4657, weighted_F1Score: 0.4458
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 175
+[2023-11-30 14:41:08] Evaluate: epoch = 0020 train time = 5.2408 s train loss = 0.017765
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.0588, SSA_F1Score: 0.5352, weighted_F1Score: 0.2343
+----------------------------------------
+[2023-11-30 14:43:10] iter = 0175, loss = 866.8373
+[2023-11-30 14:45:12] iter = 0176, loss = 856.5914
+[2023-11-30 14:47:14] iter = 0177, loss = 863.2286
+[2023-11-30 14:49:16] iter = 0178, loss = 855.1847
+[2023-11-30 14:51:17] iter = 0179, loss = 871.1186
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 180
+[2023-11-30 14:51:25] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.598075
+Train Score: HP_F1Score: 0.9474, SSA_F1Score: 0.9524, weighted_F1Score: 0.9499
+Test Score: HP_F1Score: 0.0000, SSA_F1Score: 0.5385, weighted_F1Score: 0.1984
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 180
+[2023-11-30 14:51:34] Evaluate: epoch = 0020 train time = 5.2500 s train loss = 0.015450
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7445, SSA_F1Score: 0.1387, weighted_F1Score: 0.5213
+----------------------------------------
+[2023-11-30 14:53:36] iter = 0180, loss = 862.5961
+[2023-11-30 14:55:38] iter = 0181, loss = 864.1218
+[2023-11-30 14:57:39] iter = 0182, loss = 863.0562
+[2023-11-30 14:59:41] iter = 0183, loss = 863.3582
+[2023-11-30 15:01:43] iter = 0184, loss = 857.0549
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 185
+[2023-11-30 15:01:51] Evaluate: epoch = 0020 train time = 4.4543 s train loss = 0.604897
+Train Score: HP_F1Score: 0.9901, SSA_F1Score: 0.9899, weighted_F1Score: 0.9900
+Test Score: HP_F1Score: 0.7742, SSA_F1Score: 0.0000, weighted_F1Score: 0.4889
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 185
+[2023-11-30 15:02:00] Evaluate: epoch = 0020 train time = 5.2969 s train loss = 0.014951
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7434, SSA_F1Score: 0.1222, weighted_F1Score: 0.5145
+----------------------------------------
+[2023-11-30 15:04:02] iter = 0185, loss = 845.2275
+[2023-11-30 15:06:03] iter = 0186, loss = 866.8766
+[2023-11-30 15:08:05] iter = 0187, loss = 868.9857
+[2023-11-30 15:10:07] iter = 0188, loss = 869.3879
+[2023-11-30 15:12:09] iter = 0189, loss = 860.8230
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 190
+[2023-11-30 15:12:17] Evaluate: epoch = 0020 train time = 4.4850 s train loss = 0.607061
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7142, SSA_F1Score: 0.2180, weighted_F1Score: 0.5313
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 190
+[2023-11-30 15:12:25] Evaluate: epoch = 0020 train time = 5.2500 s train loss = 0.012066
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.2533, SSA_F1Score: 0.5185, weighted_F1Score: 0.3510
+----------------------------------------
+[2023-11-30 15:14:27] iter = 0190, loss = 854.9754
+[2023-11-30 15:16:29] iter = 0191, loss = 864.6011
+[2023-11-30 15:18:30] iter = 0192, loss = 851.6705
+[2023-11-30 15:20:32] iter = 0193, loss = 857.5734
+[2023-11-30 15:22:34] iter = 0194, loss = 858.0419
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 195
+[2023-11-30 15:22:42] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.599506
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.4828, SSA_F1Score: 0.4364, weighted_F1Score: 0.4657
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 195
+[2023-11-30 15:22:51] Evaluate: epoch = 0020 train time = 5.2513 s train loss = 0.010624
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.7258, SSA_F1Score: 0.1762, weighted_F1Score: 0.5233
+----------------------------------------
+[2023-11-30 15:24:53] iter = 0195, loss = 856.9692
+[2023-11-30 15:26:55] iter = 0196, loss = 861.5639
+[2023-11-30 15:28:57] iter = 0197, loss = 865.7409
+[2023-11-30 15:31:00] iter = 0198, loss = 862.7739
+[2023-11-30 15:33:02] iter = 0199, loss = 860.8018
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = ConvNet7, iteration = 200
+[2023-11-30 15:33:18] Evaluate: epoch = 0020 train time = 4.4844 s train loss = 0.612593
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.1834, SSA_F1Score: 0.5349, weighted_F1Score: 0.3129
+----------------------------------------
+-------------------------
+Evaluation
+model_train = ConvNet7, model_eval = VGG11_mhist, iteration = 200
+[2023-11-30 15:33:27] Evaluate: epoch = 0020 train time = 5.2220 s train loss = 0.014647
+Train Score: HP_F1Score: 1.0000, SSA_F1Score: 1.0000, weighted_F1Score: 1.0000
+Test Score: HP_F1Score: 0.6064, SSA_F1Score: 0.3816, weighted_F1Score: 0.5235
+----------------------------------------
+[2023-11-30 15:35:15] iter = 0200, loss = 863.0253

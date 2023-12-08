@@ -1,0 +1,413 @@
+##### LOADING MHIST ############
+[INFO] Distilled Dataset file GM_res_MHIST_ConvNet7_real_50ipc.pt
+[INFO] Iteration 1: Training Model ConvNetD1 on Distilled dataset
+Epoch [1/20], Loss: 125.6480, F1Score (weighted): 0.54
+Epoch [2/20], Loss: 299.0283, F1Score (weighted): 0.32
+Epoch [3/20], Loss: 2.7067, F1Score (weighted): 0.84
+Epoch [4/20], Loss: 4.0738, F1Score (weighted): 0.79
+Epoch [5/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [6/20], Loss: 0.0443, F1Score (weighted): 0.98
+Epoch [7/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [8/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [9/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [10/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0000, F1Score (weighted): 1.00
+[2023-12-02 12:48:38] Evaluate: epoch = 0020 train time = 3.1319 s train loss = 0.000000 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.2520
+[INFO] Iteration 1: Training Model ConvNetD1 on whole dataset
+Epoch [1/20], Loss: 26.8146, F1Score (weighted): 0.62
+Epoch [2/20], Loss: 0.6452, F1Score (weighted): 0.82
+Epoch [3/20], Loss: 0.1346, F1Score (weighted): 0.95
+Epoch [4/20], Loss: 0.0335, F1Score (weighted): 1.00
+Epoch [5/20], Loss: 0.0169, F1Score (weighted): 1.00
+Epoch [6/20], Loss: 0.0119, F1Score (weighted): 1.00
+Epoch [7/20], Loss: 0.0098, F1Score (weighted): 1.00
+Epoch [8/20], Loss: 0.0085, F1Score (weighted): 1.00
+Epoch [9/20], Loss: 0.0077, F1Score (weighted): 1.00
+Epoch [10/20], Loss: 0.0070, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0065, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0061, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0058, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0056, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0055, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0053, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0053, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0052, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0052, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0052, F1Score (weighted): 1.00
+[2023-12-02 12:51:10] Evaluate: epoch = 0020 train time = 148.9533 s train loss = 0.005180 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.6500
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.2520
+Average Test Score on Whole Dataset is 0.6500
+------------------------------------------------------------------
+[INFO] Iteration 1: Training Model ConvNetD2 on Distilled dataset
+Epoch [1/20], Loss: 21.6344, F1Score (weighted): 0.50
+Epoch [2/20], Loss: 90.2762, F1Score (weighted): 0.39
+Epoch [3/20], Loss: 14.7613, F1Score (weighted): 0.64
+Epoch [4/20], Loss: 1.8752, F1Score (weighted): 0.77
+Epoch [5/20], Loss: 11.9523, F1Score (weighted): 0.67
+Epoch [6/20], Loss: 1.1590, F1Score (weighted): 0.88
+Epoch [7/20], Loss: 0.0821, F1Score (weighted): 0.99
+Epoch [8/20], Loss: 0.0685, F1Score (weighted): 0.99
+Epoch [9/20], Loss: 0.0001, F1Score (weighted): 1.00
+Epoch [10/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0000, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0000, F1Score (weighted): 1.00
+[2023-12-02 12:51:17] Evaluate: epoch = 0020 train time = 4.0781 s train loss = 0.000021 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.5241
+[INFO] Iteration 1: Training Model ConvNetD2 on whole dataset
+Epoch [1/20], Loss: 16.5433, F1Score (weighted): 0.62
+Epoch [2/20], Loss: 2.0468, F1Score (weighted): 0.73
+Epoch [3/20], Loss: 0.6170, F1Score (weighted): 0.83
+Epoch [4/20], Loss: 0.1868, F1Score (weighted): 0.93
+Epoch [5/20], Loss: 0.0703, F1Score (weighted): 0.98
+Epoch [6/20], Loss: 0.0340, F1Score (weighted): 1.00
+Epoch [7/20], Loss: 0.0209, F1Score (weighted): 1.00
+Epoch [8/20], Loss: 0.0165, F1Score (weighted): 1.00
+Epoch [9/20], Loss: 0.0137, F1Score (weighted): 1.00
+Epoch [10/20], Loss: 0.0123, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0110, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0102, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0097, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0093, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0090, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0087, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0086, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0085, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0084, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0084, F1Score (weighted): 1.00
+[2023-12-02 12:53:41] Evaluate: epoch = 0020 train time = 141.3272 s train loss = 0.008387 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.6943
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.5241
+Average Test Score on Whole Dataset is 0.6943
+------------------------------------------------------------------
+[INFO] Iteration 1: Training Model ConvNetD3 on Distilled dataset
+Epoch [1/20], Loss: 5.8084, F1Score (weighted): 0.55
+Epoch [2/20], Loss: 6.3808, F1Score (weighted): 0.58
+Epoch [3/20], Loss: 16.7758, F1Score (weighted): 0.46
+Epoch [4/20], Loss: 8.5137, F1Score (weighted): 0.63
+Epoch [5/20], Loss: 12.7137, F1Score (weighted): 0.47
+Epoch [6/20], Loss: 4.8713, F1Score (weighted): 0.61
+Epoch [7/20], Loss: 1.8041, F1Score (weighted): 0.75
+Epoch [8/20], Loss: 0.4855, F1Score (weighted): 0.88
+Epoch [9/20], Loss: 0.1531, F1Score (weighted): 0.93
+Epoch [10/20], Loss: 0.1010, F1Score (weighted): 0.97
+Epoch [11/20], Loss: 0.0071, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0011, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0024, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0013, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0009, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0008, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0007, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0007, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0007, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0006, F1Score (weighted): 1.00
+[2023-12-02 12:53:49] Evaluate: epoch = 0020 train time = 4.2357 s train loss = 0.000648 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.5279
+[INFO] Iteration 1: Training Model ConvNetD3 on whole dataset
+Epoch [1/20], Loss: 6.6230, F1Score (weighted): 0.61
+Epoch [2/20], Loss: 2.4205, F1Score (weighted): 0.67
+Epoch [3/20], Loss: 1.4629, F1Score (weighted): 0.73
+Epoch [4/20], Loss: 1.0490, F1Score (weighted): 0.75
+Epoch [5/20], Loss: 0.4944, F1Score (weighted): 0.85
+Epoch [6/20], Loss: 0.2525, F1Score (weighted): 0.90
+Epoch [7/20], Loss: 0.1691, F1Score (weighted): 0.93
+Epoch [8/20], Loss: 0.1038, F1Score (weighted): 0.96
+Epoch [9/20], Loss: 0.0634, F1Score (weighted): 0.99
+Epoch [10/20], Loss: 0.0382, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0315, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0275, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0251, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0234, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0220, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0212, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0208, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0203, F1Score (weighted): 1.00
+Epoch Epoch [15/20], Loss: 0.0220, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0212, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0208, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0203, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0201, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0200, F1Score (weighted): 1.00
+[2023-12-02 12:56:28] Evaluate: epoch = 0020 train time = 155.9372 s train loss = 0.019991 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.7396
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.5279
+Average Test Score on Whole Dataset is 0.7396
+------------------------------------------------------------------
+[INFO] Iteration 1: Training Model ConvNetD4 on Distilled dataset
+Epoch [1/20], Loss: 0.9762, F1Score (weighted): 0.42
+Epoch [2/20], Loss: 2.2198, F1Score (weighted): 0.50
+Epoch [3/20], Loss: 2.0068, F1Score (weighted): 0.48
+Epoch [4/20], Loss: 3.9827, F1Score (weighted): 0.50
+Epoch [5/20], Loss: 2.9595, F1Score (weighted): 0.57
+Epoch [6/20], Loss: 0.2304, F1Score (weighted): 0.92
+Epoch [7/20], Loss: 0.4915, F1Score (weighted): 0.77
+Epoch [8/20], Loss: 0.1151, F1Score (weighted): 0.95
+Epoch [9/20], Loss: 0.0560, F1Score (weighted): 1.00
+Epoch [10/20], Loss: 0.0525, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0383, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0299, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0258, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0244, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0237, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0223, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0219, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0215, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0214, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0213, F1Score (weighted): 1.00
+[2023-12-02 12:56:36] Evaluate: epoch = 0020 train time = 4.4375 s train loss = 0.021278 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.5320
+[INFO] Iteration 1: Training Model ConvNetD4 on whole dataset
+Epoch [1/20], Loss: 1.9110, F1Score (weighted): 0.60
+Epoch [2/20], Loss: 1.0719, F1Score (weighted): 0.67
+Epoch [3/20], Loss: 0.8549, F1Score (weighted): 0.70
+Epoch [4/20], Loss: 0.6121, F1Score (weighted): 0.74
+Epoch [5/20], Loss: 0.4526, F1Score (weighted): 0.80
+Epoch [6/20], Loss: 0.3574, F1Score (weighted): 0.84
+Epoch [7/20], Loss: 0.3241, F1Score (weighted): 0.86
+Epoch [8/20], Loss: 0.2426, F1Score (weighted): 0.90
+Epoch [9/20], Loss: 0.1822, F1Score (weighted): 0.94
+Epoch [10/20], Loss: 0.1465, F1Score (weighted): 0.96
+Epoch [11/20], Loss: 0.1161, F1Score (weighted): 0.98
+Epoch [12/20], Loss: 0.0928, F1Score (weighted): 0.99
+Epoch [13/20], Loss: 0.0747, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0650, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0575, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0530, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0495, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0478, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0466, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0459, F1Score (weighted): 1.00
+[2023-12-02 12:59:08] Evaluate: epoch = 0020 train time = 149.5208 s train loss = 0.045857 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.7526
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.5320
+Average Test Score on Whole Dataset is 0.7526
+------------------------------------------------------------------
+[INFO] Iteration 1: Training Model ConvNetW32 on Distilled dataset
+Epoch [1/20], Loss: 1.6499, F1Score (weighted): 0.47
+Epoch [2/20], Loss: 3.9724, F1Score (weighted): 0.50
+Epoch [3/20], Loss: 0.6446, F1Score (weighted): 0.70
+Epoch [4/20], Loss: 0.2786, F1Score (weighted): 0.90
+Epoch [5/20], Loss: 0.1536, F1Score (weighted): 0.99
+Epoch [6/20], Loss: 0.8565, F1Score (weighted): 0.57
+Epoch [7/20], Loss: 0.2010, F1Score (weighted): 0.94
+Epoch [8/20], Loss: 0.2337, F1Score (weighted): 0.88
+Epoch [9/20], Loss: 0.0470, F1Score (weighted): 1.00
+Epoch [10/20], Loss: 0.0402, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0342, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0320, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0299, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0279, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0271, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0266, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0262, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0260, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0258, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0257, F1Score (weighted): 1.00
+[2023-12-02 12:59:12] Evaluate: epoch = 0020 train time = 1.2032 s train loss = 0.025668 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.5568
+[INFO] Iteration 1: Training Model ConvNetW32 on whole dataset
+Epoch [1/20], Loss: 1.4144, F1Score (weighted): 0.62
+Epoch [2/20], Loss: 0.6880, F1Score (weighted): 0.70
+Epoch [3/20], Loss: 0.5642, F1Score (weighted): 0.74
+Epoch [4/20], Loss: 0.3917, F1Score (weighted): 0.83
+Epoch [5/20], Loss: 0.3287, F1Score (weighted): 0.85
+Epoch [6/20], Loss: 0.2847, F1Score (weighted): 0.87
+Epoch [7/20], Loss: 0.2271, F1Score (weighted): 0.92
+Epoch [8/20], Loss: 0.1842, F1Score (weighted): 0.94
+Epoch [9/20], Loss: 0.1520, F1Score (weighted): 0.97
+Epoch [10/20], Loss: 0.1343, F1Score (weighted): 0.97
+Epoch [11/20], Loss: 0.1146, F1Score (weighted): 0.99
+Epoch [12/20], Loss: 0.1032, F1Score (weighted): 0.99
+Epoch [13/20], Loss: 0.0913, F1Score (weighted): 0.99
+Epoch [14/20], Loss: 0.0848, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0793, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0751, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0727, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0709, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0697, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0690, F1Score (weighted): 1.00
+[2023-12-02 13:01:22] Evaluate: epoch = 0020 train time = 126.4697 s train loss = 0.069040 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.7454
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.5568
+Average Test Score on Whole Dataset is 0.7454
+------------------------------------------------------------------
+[INFO] Iteration 1: Training Model ConvNetW64 on Distilled dataset
+Epoch [1/20], Loss: 3.2221, F1Score (weighted): 0.51
+Epoch [2/20], Loss: 5.3463, F1Score (weighted): 0.57
+Epoch [3/20], Loss: 2.8036, F1Score (weighted): 0.58
+Epoch [4/20], Loss: 3.9398, F1Score (weighted): 0.58
+Epoch [5/20], Loss: 5.4969, F1Score (weighted): 0.58
+Epoch [6/20], Loss: 0.6105, F1Score (weighted): 0.79
+Epoch [7/20], Loss: 0.2948, F1Score (weighted): 0.87
+Epoch [8/20], Loss: 0.0493, F1Score (weighted): 0.98
+Epoch [9/20], Loss: 0.0544, F1Score (weighted): 0.97
+Epoch [10/20], Loss: 0.0279, F1Score (weighted): 0.99
+Epoch [11/20], Loss: 0.0082, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0061, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0055, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0053, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0051, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0050, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0050, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0049, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0049, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0049, F1Score (weighted): 1.00
+[2023-12-02 13:01:28] Evaluate: epoch = 0020 train time = 2.5634 s train loss = 0.004877 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.5348
+[INFO] Iteration 1: Training Model ConvNetW64 on whole dataset
+Epoch [1/20], Loss: 2.9852, F1Score (weighted): 0.61
+Epoch [2/20], Loss: 1.0510, F1Score (weighted): 0.70
+Epoch [3/20], Loss: 0.6497, F1Score (weighted): 0.75
+Epoch [4/20], Loss: 0.4146, F1Score (weighted): 0.82
+Epoch [5/20], Loss: 0.3500, F1Score (weighted): 0.84
+Epoch [6/20], Loss: 0.2602, F1Score (weighted): 0.89
+Epoch [7/20], Loss: 0.1732, F1Score (weighted): 0.94
+Epoch [8/20], Loss: 0.1251, F1Score (weighted): 0.97
+Epoch [9/20], Loss: 0.1055, F1Score (weighted): 0.98
+Epoch [10/20], Loss: 0.0852, F1Score (weighted): 0.99
+Epoch [11/20], Loss: 0.0710, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0629, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0551, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0512, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0478, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0455, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0442, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0431, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0425, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0421, F1Score (weighted): 1.00
+[2023-12-02 13:03:38] Evaluate: epoch = 0020 train time = 127.4224 s train loss = 0.042124 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.7382
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.5348
+Average Test Score on Whole Dataset is 0.7382
+------------------------------------------------------------------
+[INFO] Iteration 1: Training Model ConvNetW128 on Distilled dataset
+Epoch [1/20], Loss: 17.6279, F1Score (weighted): 0.38
+Epoch [2/20], Loss: 15.4773, F1Score (weighted): 0.53
+Epoch [3/20], Loss: 19.0044, F1Score (weighted): 0.46
+Epoch [4/20], Loss: 2.1114, F1Score (weighted): 0.73
+Epoch [5/20], Loss: 1.7347, F1Score (weighted): 0.77
+Epoch [6/20], Loss: 8.2061, F1Score (weighted): 0.55
+Epoch [7/20], Loss: 5.1421, F1Score (weighted): 0.63
+Epoch [8/20], Loss: 0.7013, F1Score (weighted): 0.91
+Epoch [9/20], Loss: 0.0506, F1Score (weighted): 0.98
+Epoch [10/20], Loss: 0.0088, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0024, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0017, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0015, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0014, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0014, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0013, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0013, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0013, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0012, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0012, F1Score (weighted): 1.00
+[2023-12-02 13:03:45] Evaluate: epoch = 0020 train time = 4.3125 s train loss = 0.001242 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.4588
+[INFO] Iteration 1: Training Model ConvNetW128 on whole dataset
+Epoch [1/20], Loss: 6.8713, F1Score (weighted): 0.60
+Epoch [2/20], Loss: 2.3360, F1Score (weighted): 0.67
+Epoch [3/20], Loss: 1.2255, F1Score (weighted): 0.73
+Epoch [4/20], Loss: 0.7439, F1Score (weighted): 0.78
+Epoch [5/20], Loss: 0.4494, F1Score (weighted): 0.83
+Epoch [6/20], Loss: 0.2912, F1Score (weighted): 0.88
+Epoch [7/20], Loss: 0.1543, F1Score (weighted): 0.94
+Epoch [8/20], Loss: 0.1003, F1Score (weighted): 0.97
+Epoch [9/20], Loss: 0.0633, F1Score (weighted): 0.99
+Epoch [10/20], Loss: 0.0489, F1Score (weighted): 1.00
+Epoch [11/20], Loss: 0.0403, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0344, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0317, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0293, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0275, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0265, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0257, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0251, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0248, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0247, F1Score (weighted): 1.00
+[2023-12-02 13:06:12] Evaluate: epoch = 0020 train time = 143.4516 s train loss = 0.024680 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.7238
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.4588
+Average Test Score on Whole Dataset is 0.7238
+------------------------------------------------------------------
+[INFO] Iteration 1: Training Model ConvNetW256 on Distilled dataset
+Epoch [1/20], Loss: 21.9546, F1Score (weighted): 0.48
+Epoch [2/20], Loss: 21.8613, F1Score (weighted): 0.48
+Epoch [3/20], Loss: 21.1539, F1Score (weighted): 0.51
+Epoch [4/20], Loss: 1.3571, F1Score (weighted): 0.86
+Epoch [5/20], Loss: 21.2807, F1Score (weighted): 0.54
+Epoch [6/20], Loss: 18.4379, F1Score (weighted): 0.52
+Epoch [7/20], Loss: 1.8901, F1Score (weighted): 0.87
+Epoch [8/20], Loss: 3.0829, F1Score (weighted): 0.86
+Epoch [9/20], Loss: 1.0549, F1Score (weighted): 0.94
+Epoch [10/20], Loss: 0.0952, F1Score (weighted): 0.99
+Epoch [11/20], Loss: 0.0013, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0003, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0002, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0002, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0002, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0001, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0001, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0001, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0001, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0001, F1Score (weighted): 1.00
+[2023-12-02 13:06:26] Evaluate: epoch = 0020 train time = 9.7200 s train loss = 0.000131 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.4789
+[INFO] Iteration 1: Training Model ConvNetW256 on whole dataset
+Epoch [1/20], Loss: 13.9606, F1Score (weighted): 0.61
+Epoch [2/20], Loss: 4.6549, F1Score (weighted): 0.67
+Epoch [3/20], Loss: 3.1213, F1Score (weighted): 0.69
+Epoch [4/20], Loss: 1.8586, F1Score (weighted): 0.72
+Epoch [5/20], Loss: 0.9170, F1Score (weighted): 0.80
+Epoch [6/20], Loss: 0.5447, F1Score (weighted): 0.84
+Epoch [7/20], Loss: 0.3510, F1Score (weighted): 0.87
+Epoch [8/20], Loss: 0.1730, F1Score (weighted): 0.93
+Epoch [9/20], Loss: 0.1004, F1Score (weighted): 0.96
+Epoch [10/20], Loss: 0.0600, F1Score (weighted): 0.99
+Epoch [11/20], Loss: 0.0404, F1Score (weighted): 1.00
+Epoch [12/20], Loss: 0.0300, F1Score (weighted): 1.00
+Epoch [13/20], Loss: 0.0248, F1Score (weighted): 1.00
+Epoch [14/20], Loss: 0.0220, F1Score (weighted): 1.00
+Epoch [15/20], Loss: 0.0204, F1Score (weighted): 1.00
+Epoch [16/20], Loss: 0.0194, F1Score (weighted): 1.00
+Epoch [17/20], Loss: 0.0187, F1Score (weighted): 1.00
+Epoch [18/20], Loss: 0.0182, F1Score (weighted): 1.00
+Epoch [19/20], Loss: 0.0180, F1Score (weighted): 1.00
+Epoch [20/20], Loss: 0.0178, F1Score (weighted): 1.00
+[2023-12-02 13:10:01] Evaluate: epoch = 0020 train time = 211.1519 s train loss = 0.017819 train f1 (weighted) = 1.0000, test f1 (weighted) = 0.7233
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.4789
+Average Test Score on Whole Dataset is 0.7233
+------------------------------------------------------------------
+Best Model based on Synthetic Data is: ConvNetW32 - Test Accuracy: 0.5568
+Best Model based on Synthetic Data is: ConvNetD4 - Test Accuracy: 0.7526
+Test Score Correlation: 0.8691
+Sorted Models based on distilled data test Score
+Model 	 	 Test Score
+ConvNetW32 	 	 0.5568
+ConvNetW64 	 	 0.5348
+ConvNetD4 	 	 0.5320
+ConvNetD3 	 	 0.5279
+ConvNetD2 	 	 0.5241
+ConvNetW256 	 	 0.4789
+ConvNetW128 	 	 0.4588
+ConvNetD1 	 	 0.2520
+Sorted Models based on whole data test Score
+Model 	 	 Test Score
+ConvNetD4 	 	 0.7526
+ConvNetW32 	 	 0.7454
+ConvNetD3 	 	 0.7396
+ConvNetW64 	 	 0.7382
+ConvNetW128 	 	 0.7238
+ConvNetW256 	 	 0.7233
+ConvNetD2 	 	 0.6943
+ConvNetD1 	 	 0.6500
