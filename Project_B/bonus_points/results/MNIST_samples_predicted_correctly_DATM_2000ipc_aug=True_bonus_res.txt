@@ -1,0 +1,226 @@
+##### LOADING MNIST ############
+[INFO] Distilled Dataset file DATM_res_MNIST_ConvNet3_samples_predicted_correctly_2000ipc.pt
+[INFO] Iteration 1: Training Model ConvNet3 on Distilled dataset
+Epoch [1/20], Loss: 0.3704, Accuracy: 0.89
+Epoch [2/20], Loss: 0.1225, Accuracy: 0.97
+Epoch [3/20], Loss: 0.0844, Accuracy: 0.98
+Epoch [4/20], Loss: 0.0612, Accuracy: 0.98
+Epoch [5/20], Loss: 0.0519, Accuracy: 0.98
+Epoch [6/20], Loss: 0.0465, Accuracy: 0.99
+Epoch [7/20], Loss: 0.0388, Accuracy: 0.99
+Epoch [8/20], Loss: 0.0337, Accuracy: 0.99
+Epoch [9/20], Loss: 0.0301, Accuracy: 0.99
+Epoch [10/20], Loss: 0.0267, Accuracy: 0.99
+Epoch [11/20], Loss: 0.0241, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0229, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0205, Accuracy: 0.99
+Epoch [14/20], Loss: 0.0200, Accuracy: 1.00
+Epoch [15/20], Loss: 0.0205, Accuracy: 1.00
+Epoch [16/20], Loss: 0.0178, Accuracy: 1.00
+Epoch [17/20], Loss: 0.0144, Accuracy: 1.00
+Epoch [18/20], Loss: 0.0163, Accuracy: 1.00
+Epoch [19/20], Loss: 0.0140, Accuracy: 1.00
+Epoch [20/20], Loss: 0.0147, Accuracy: 1.00
+[2023-12-03 17:59:45] Evaluate: epoch = 0020 train time = 55.5194 s train loss = 0.014677 train acc = 0.9970, test acc = 0.9939
+[INFO] Iteration 1: Training Model ConvNet3 on whole dataset
+Epoch [1/20], Loss: 0.5549, Accuracy: 0.86
+Epoch [2/20], Loss: 0.1817, Accuracy: 0.95
+Epoch [3/20], Loss: 0.1383, Accuracy: 0.96
+Epoch [4/20], Loss: 0.1077, Accuracy: 0.97
+Epoch [5/20], Loss: 0.0943, Accuracy: 0.97
+Epoch [6/20], Loss: 0.0821, Accuracy: 0.98
+Epoch [7/20], Loss: 0.0777, Accuracy: 0.98
+Epoch [8/20], Loss: 0.0685, Accuracy: 0.98
+Epoch [9/20], Loss: 0.0626, Accuracy: 0.98
+Epoch [10/20], Loss: 0.0563, Accuracy: 0.98
+Epoch [11/20], Loss: 0.0572, Accuracy: 0.98
+Epoch [12/20], Loss: 0.0526, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0500, Accuracy: 0.99
+Epoch [14/20], Loss: 0.0510, Accuracy: 0.99
+Epoch [15/20], Loss: 0.0461, Accuracy: 0.99
+Epoch [16/20], Loss: 0.0452, Accuracy: 0.99
+Epoch [17/20], Loss: 0.0418, Accuracy: 0.99
+Epoch [18/20], Loss: 0.0437, Accuracy: 0.99
+Epoch [19/20], Loss: 0.0412, Accuracy: 0.99
+Epoch [20/20], Loss: 0.0424, Accuracy: 0.99
+[2023-12-03 18:04:08] Evaluate: epoch = 0020 train time = 261.4070 s train loss = 0.042447 train acc = 0.9890, test acc = 0.9931
+[INFO] Iteration 2: Training Model ConvNet3 on Distilled dataset
+Epoch [1/20], Loss: 0.3503, Accuracy: 0.90
+Epoch [2/20], Loss: 0.1248, Accuracy: 0.96
+Epoch [3/20], Loss: 0.0815, Accuracy: 0.98
+Epoch [4/20], Loss: 0.0634, Accuracy: 0.98
+Epoch [5/20], Loss: 0.0533, Accuracy: 0.98
+Epoch [6/20], Loss: 0.0454, Accuracy: 0.99
+Epoch [7/20], Loss: 0.0404, Accuracy: 0.99
+Epoch [8/20], Loss: 0.0334, Accuracy: 0.99
+Epoch [9/20], Loss: 0.0293, Accuracy: 0.99
+Epoch [10/20], Loss: 0.0289, Accuracy: 0.99
+Epoch [11/20], Loss: 0.0258, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0224, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0191, Accuracy: 1.00
+Epoch [14/20], Loss: 0.0172, Accuracy: 1.00
+Epoch [15/20], Loss: 0.0168, Accuracy: 1.00
+Epoch [16/20], Loss: 0.0170, Accuracy: 1.00
+Epoch [17/20], Loss: 0.0146, Accuracy: 1.00
+Epoch [18/20], Loss: 0.0149, Accuracy: 1.00
+Epoch [19/20], Loss: 0.0152, Accuracy: 1.00
+Epoch [20/20], Loss: 0.0151, Accuracy: 1.00
+[2023-12-03 18:05:05] Evaluate: epoch = 0020 train time = 55.5216 s train loss = 0.015054 train acc = 0.9968, test acc = 0.9942
+[INFO] Iteration 2: Training Model ConvNet3 on whole dataset
+Epoch [1/20], Loss: 0.5320, Accuracy: 0.87
+Epoch [2/20], Loss: 0.2082, Accuracy: 0.94
+Epoch [3/20], Loss: 0.1352, Accuracy: 0.96
+Epoch [4/20], Loss: 0.1153, Accuracy: 0.97
+Epoch [5/20], Loss: 0.0880, Accuracy: 0.98
+Epoch [6/20], Loss: 0.0810, Accuracy: 0.98
+Epoch [7/20], Loss: 0.0734, Accuracy: 0.98
+Epoch [8/20], Loss: 0.0683, Accuracy: 0.98
+Epoch [9/20], Loss: 0.0632, Accuracy: 0.98
+Epoch [10/20], Loss: 0.0605, Accuracy: 0.98
+Epoch [11/20], Loss: 0.0557, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0542, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0491, Accuracy: 0.99
+Epoch [14/20], Loss: 0.0483, Accuracy: 0.99
+Epoch [15/20], Loss: 0.0476, Accuracy: 0.99
+Epoch [16/20], Loss: 0.0478, Accuracy: 0.99
+Epoch [17/20], Loss: 0.0443, Accuracy: 0.99
+Epoch [18/20], Loss: 0.0416, Accuracy: 0.99
+Epoch [19/20], Loss: 0.0417, Accuracy: 0.99
+Epoch [20/20], Loss: 0.0414, Accuracy: 0.99
+[2023-12-03 18:08:40] Evaluate: epoch = 0020 train time = 213.1247 s train loss = 0.041370 train acc = 0.9892, test acc = 0.9932
+[INFO] Iteration 3: Training Model ConvNet3 on Distilled dataset
+Epoch [1/20], Loss: 0.3473, Accuracy: 0.90
+Epoch [2/20], Loss: 0.1240, Accuracy: 0.96
+Epoch [3/20], Loss: 0.0894, Accuracy: 0.98
+Epoch [4/20], Loss: 0.0612, Accuracy: 0.98
+Epoch [5/20], Loss: 0.0544, Accuracy: 0.99
+Epoch [6/20], Loss: 0.0436, Accuracy: 0.99
+Epoch [7/20], Loss: 0.0421, Accuracy: 0.99
+Epoch [8/20], Loss: 0.0340, Accuracy: 0.99
+Epoch [9/20], Loss: 0.0305, Accuracy: 0.99
+Epoch [10/20], Loss: 0.0274, Accuracy: 0.99
+Epoch [11/20], Loss: 0.0248, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0213, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0198, Accuracy: 1.00
+Epoch [14/20], Loss: 0.0205, Accuracy: 0.99
+Epoch [15/20], Loss: 0.0169, Accuracy: 1.00
+Epoch [16/20], Loss: 0.0175, Accuracy: 1.00
+Epoch [17/20], Loss: 0.0159, Accuracy: 1.00
+Epoch [18/20], Loss: 0.0160, Accuracy: 1.00
+Epoch [19/20], Loss: 0.0152, Accuracy: 1.00
+Epoch [20/20], Loss: 0.0180, Accuracy: 1.00
+[2023-12-03 18:09:37] Evaluate: epoch = 0020 train time = 56.1613 s train loss = 0.018001 train acc = 0.9958, test acc = 0.9936
+[INFO] Iteration 3: Training Model ConvNet3 on whole dataset
+Epoch [1/20], Loss: 0.5358, Accuracy: 0.87
+Epoch [2/20], Loss: 0.1881, Accuracy: 0.95
+Epoch [3/20], Loss: 0.1363, Accuracy: 0.96
+Epoch [4/20], Loss: 0.1100, Accuracy: 0.97
+Epoch [5/20], Loss: 0.0952, Accuracy: 0.98
+Epoch [6/20], Loss: 0.0736, Accuracy: 0.98
+Epoch [7/20], Loss: 0.0699, Accuracy: 0.98
+Epoch [8/20], Loss: 0.0640, Accuracy: 0.98
+Epoch [9/20], Loss: 0.0597, Accuracy: 0.98
+Epoch [10/20], Loss: 0.0600, Accuracy: 0.98
+Epoch [11/20], Loss: 0.0494, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0513, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0501, Accuracy: 0.99
+Epoch [14/20], Loss: 0.0466, Accuracy: 0.99
+Epoch [15/20], Loss: 0.0451, Accuracy: 0.99
+Epoch [16/20], Loss: 0.0446, Accuracy: 0.99
+Epoch [17/20], Loss: 0.0448, Accuracy: 0.99
+Epoch [18/20], Loss: 0.0455, Accuracy: 0.99
+Epoch [19/20], Loss: 0.0377, Accuracy: 0.99
+Epoch [20/20], Loss: 0.0424, Accuracy: 0.99
+[2023-12-03 18:13:12] Evaluate: epoch = 0020 train time = 212.6673 s train loss = 0.042423 train acc = 0.9887, test acc = 0.9938
+[INFO] Iteration 4: Training Model ConvNet3 on Distilled dataset
+Epoch [1/20], Loss: 0.3500, Accuracy: 0.90
+Epoch [2/20], Loss: 0.1209, Accuracy: 0.97
+Epoch [3/20], Loss: 0.0826, Accuracy: 0.98
+Epoch [4/20], Loss: 0.0619, Accuracy: 0.98
+Epoch [5/20], Loss: 0.0515, Accuracy: 0.99
+Epoch [6/20], Loss: 0.0439, Accuracy: 0.99
+Epoch [7/20], Loss: 0.0336, Accuracy: 0.99
+Epoch [8/20], Loss: 0.0323, Accuracy: 0.99
+Epoch [9/20], Loss: 0.0285, Accuracy: 0.99
+Epoch [10/20], Loss: 0.0281, Accuracy: 0.99
+Epoch [11/20], Loss: 0.0245, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0211, Accuracy: 1.00
+Epoch [13/20], Loss: 0.0203, Accuracy: 1.00
+Epoch [14/20], Loss: 0.0178, Accuracy: 1.00
+Epoch [15/20], Loss: 0.0164, Accuracy: 1.00
+Epoch [16/20], Loss: 0.0155, Accuracy: 1.00
+Epoch [17/20], Loss: 0.0163, Accuracy: 1.00
+Epoch [18/20], Loss: 0.0159, Accuracy: 1.00
+Epoch [19/20], Loss: 0.0145, Accuracy: 1.00
+Epoch [20/20], Loss: 0.0155, Accuracy: 1.00
+[2023-12-03 18:14:07] Evaluate: epoch = 0020 train time = 53.4393 s train loss = 0.015521 train acc = 0.9965, test acc = 0.9936
+[INFO] Iteration 4: Training Model ConvNet3 on whole dataset
+Epoch [1/20], Loss: 0.5339, Accuracy: 0.87
+Epoch [2/20], Loss: 0.1793, Accuracy: 0.95
+Epoch [3/20], Loss: 0.1297, Accuracy: 0.97
+Epoch [4/20], Loss: 0.1009, Accuracy: 0.97
+Epoch [5/20], Loss: 0.0868, Accuracy: 0.98
+Epoch [6/20], Loss: 0.0812, Accuracy: 0.98
+Epoch [7/20], Loss: 0.0726, Accuracy: 0.98
+Epoch [8/20], Loss: 0.0654, Accuracy: 0.98
+Epoch [9/20], Loss: 0.0622, Accuracy: 0.98
+Epoch [10/20], Loss: 0.0551, Accuracy: 0.99
+Epoch [11/20], Loss: 0.0480, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0487, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0472, Accuracy: 0.99
+Epoch [14/20], Loss: 0.0485, Accuracy: 0.99
+Epoch [15/20], Loss: 0.0490, Accuracy: 0.99
+Epoch [16/20], Loss: 0.0453, Accuracy: 0.99
+Epoch [17/20], Loss: 0.0434, Accuracy: 0.99
+Epoch [18/20], Loss: 0.0373, Accuracy: 0.99
+Epoch [19/20], Loss: 0.0419, Accuracy: 0.99
+Epoch [20/20], Loss: 0.0425, Accuracy: 0.99
+[2023-12-03 18:17:44] Evaluate: epoch = 0020 train time = 215.4550 s train loss = 0.042508 train acc = 0.9890, test acc = 0.9940
+[INFO] Iteration 5: Training Model ConvNet3 on Distilled dataset
+Epoch [1/20], Loss: 0.3595, Accuracy: 0.90
+Epoch [2/20], Loss: 0.1220, Accuracy: 0.97
+Epoch [3/20], Loss: 0.0842, Accuracy: 0.98
+Epoch [4/20], Loss: 0.0604, Accuracy: 0.98
+Epoch [5/20], Loss: 0.0515, Accuracy: 0.99
+Epoch [6/20], Loss: 0.0424, Accuracy: 0.99
+Epoch [7/20], Loss: 0.0398, Accuracy: 0.99
+Epoch [8/20], Loss: 0.0329, Accuracy: 0.99
+Epoch [9/20], Loss: 0.0305, Accuracy: 0.99
+Epoch [10/20], Loss: 0.0271, Accuracy: 0.99
+Epoch [11/20], Loss: 0.0214, Accuracy: 0.99
+Epoch [12/20], Loss: 0.0221, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0210, Accuracy: 0.99
+Epoch [14/20], Loss: 0.0188, Accuracy: 1.00
+Epoch [15/20], Loss: 0.0158, Accuracy: 1.00
+Epoch [16/20], Loss: 0.0160, Accuracy: 1.00
+Epoch [17/20], Loss: 0.0169, Accuracy: 1.00
+Epoch [18/20], Loss: 0.0155, Accuracy: 1.00
+Epoch [19/20], Loss: 0.0148, Accuracy: 1.00
+Epoch [20/20], Loss: 0.0160, Accuracy: 1.00
+[2023-12-03 18:18:36] Evaluate: epoch = 0020 train time = 50.6807 s train loss = 0.016027 train acc = 0.9965, test acc = 0.9938
+[INFO] Iteration 5: Training Model ConvNet3 on whole dataset
+Epoch [1/20], Loss: 0.5316, Accuracy: 0.87
+Epoch [2/20], Loss: 0.1825, Accuracy: 0.95
+Epoch [3/20], Loss: 0.1413, Accuracy: 0.96
+Epoch [4/20], Loss: 0.1131, Accuracy: 0.97
+Epoch [5/20], Loss: 0.0986, Accuracy: 0.97
+Epoch [6/20], Loss: 0.0804, Accuracy: 0.98
+Epoch [7/20], Loss: 0.0732, Accuracy: 0.98
+Epoch [8/20], Loss: 0.0672, Accuracy: 0.98
+Epoch [9/20], Loss: 0.0613, Accuracy: 0.98
+Epoch [10/20], Loss: 0.0518, Accuracy: 0.99
+Epoch [11/20], Loss: 0.0581, Accuracy: 0.98
+Epoch [12/20], Loss: 0.0502, Accuracy: 0.99
+Epoch [13/20], Loss: 0.0481, Accuracy: 0.99
+Epoch [14/20], Loss: 0.0464, Accuracy: 0.99
+Epoch [15/20], Loss: 0.0447, Accuracy: 0.99
+Epoch [16/20], Loss: 0.0434, Accuracy: 0.99
+Epoch [17/20], Loss: 0.0447, Accuracy: 0.99
+Epoch [18/20], Loss: 0.0440, Accuracy: 0.99
+Epoch [19/20], Loss: 0.0406, Accuracy: 0.99
+Epoch [20/20], Loss: 0.0429, Accuracy: 0.99
+[2023-12-03 18:22:11] Evaluate: epoch = 0020 train time = 213.0795 s train loss = 0.042873 train acc = 0.9884, test acc = 0.9940
+------------------------------------------------------------------
+Average Test Score on Distilled Dataset is 0.9938
+Average Test Score on Whole Dataset is 0.9936
+------------------------------------------------------------------
