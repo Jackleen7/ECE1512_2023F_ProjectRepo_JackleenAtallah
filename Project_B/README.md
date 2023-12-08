@@ -3,4 +3,4 @@
 - results/ contains log files, images of problems in Task_1
 - .py files contain python codes for problems in Task_1
 Note: training_synthetic_data.py was built by modifying codes in the following repo:
-\url{https://github.com/VICO-UoE/DatasetCondensation}
+https://github.com/VICO-UoE/DatasetCondensation
