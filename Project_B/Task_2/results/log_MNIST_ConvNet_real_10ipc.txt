@@ -1,0 +1,1634 @@
+CUDNN STATUS: True
+Hyper-parameters: 
+ {'cfg': '..\\configs\\MNIST\\ConvIN\\IPC10.yaml', 'dataset': 'MNIST', 'subset': 'imagenette', 'model': 'ConvNet', 'ipc': 10, 'eval_mode': 'S', 'num_eval': 1, 'eval_it': 100, 'epoch_eval_train': 20, 'Iteration': 5000, 'lr_img': 100, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_syn': 32, 'batch_train': 256, 'pix_init': 'real', 'dsa': True, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': '../dataset', 'buffer_path': '../buffer/buffers/old_experts', 'expert_epochs': 2, 'syn_steps': 25, 'max_start_epoch': 18, 'min_start_epoch': 0, 'zca': False, 'load_all': False, 'no_aug': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'ema_decay': 0.9995, 'lr_y': 2.0, 'Momentum_y': 0.9, 'project': 'TEST', 'threshold': 1.0, 'record_loss': False, 'Sequential_Generation': False, 'expansion_end_epoch': 1000, 'current_max_start_epoch': 10, 'skip_first_eva': False, 'parall_eva': False, 'lr_lr': 1e-05, 'res': 32, 'device': 'cuda', 'Initialize_Label_With_Another_Model': False, 'Initialize_Label_Model': '', 'Initialize_Label_Model_Dir': '', 'Label_Model_Timestamp': -1, 'im_size': (28, 28), 'distributed': False}
+Evaluation model pool:  ['ConvNet', 'VGG11']
+BUILDING DATASET
+class c = 0: 5923 real images
+class c = 1: 6742 real images
+class c = 2: 5958 real images
+class c = 3: 6131 real images
+class c = 4: 5842 real images
+class c = 5: 5421 real images
+class c = 6: 5918 real images
+class c = 7: 6265 real images
+class c = 8: 5851 real images
+class c = 9: 5949 real images
+real images channel 0, mean = -0.0001, std = 1.0000
+Expert Dir: ../buffer/buffers/old_experts\MNIST\ConvNet
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+initialize synthetic data from random real images
+[2023-11-30 19:35:06] training begins
+InitialAcc:0.99
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 0
+[2023-11-30 19:35:11] Evaluate: epoch = 0020 train time = 0.4470 s train loss = 0.301188 train acc = 0.9900, test acc = 0.8992
+Evaluate 1 random ConvNet, mean = 0.8992 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 0
+[2023-11-30 19:35:17] Evaluate: epoch = 0020 train time = 0.7180 s train loss = 0.982233 train acc = 0.9700, test acc = 0.7332
+Evaluate 1 random VGG11, mean = 0.7332 std = 0.0000
+-------------------------
+[2023-11-30 19:35:17] iter = 0000, loss = 0.9832
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:35:22] iter = 0010, loss = 0.9873
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:35:27] iter = 0020, loss = 0.9659
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:35:31] iter = 0030, loss = 0.9675
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:35:36] iter = 0040, loss = 0.9893
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:35:41] iter = 0050, loss = 0.9875
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:35:45] iter = 0060, loss = 0.9847
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:35:50] iter = 0070, loss = 0.9856
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:35:54] iter = 0080, loss = 0.9763
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:35:59] iter = 0090, loss = 0.9692
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 100
+[2023-11-30 19:36:08] Evaluate: epoch = 0020 train time = 0.2600 s train loss = 0.247697 train acc = 1.0000, test acc = 0.8993
+Evaluate 1 random ConvNet, mean = 0.8993 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 100
+[2023-11-30 19:36:14] Evaluate: epoch = 0020 train time = 1.5670 s train loss = 1.988322 train acc = 0.5300, test acc = 0.4517
+Evaluate 1 random VGG11, mean = 0.4517 std = 0.0000
+-------------------------
+[2023-11-30 19:36:14] iter = 0100, loss = 0.9743
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:36:19] iter = 0110, loss = 0.9497
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:36:24] iter = 0120, loss = 0.9680
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:36:28] iter = 0130, loss = 0.9911
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:36:33] iter = 0140, loss = 0.9838
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:36:38] iter = 0150, loss = 0.9676
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:36:42] iter = 0160, loss = 0.9910
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:36:47] iter = 0170, loss = 0.9817
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:36:52] iter = 0180, loss = 0.8514
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:36:57] iter = 0190, loss = 0.9915
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 200
+[2023-11-30 19:37:06] Evaluate: epoch = 0020 train time = 0.3120 s train loss = 0.209219 train acc = 1.0000, test acc = 0.9082
+Evaluate 1 random ConvNet, mean = 0.9082 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 200
+[2023-11-30 19:37:11] Evaluate: epoch = 0020 train time = 0.6445 s train loss = 2.230205 train acc = 0.2500, test acc = 0.2152
+Evaluate 1 random VGG11, mean = 0.2152 std = 0.0000
+-------------------------
+[2023-11-30 19:37:12] iter = 0200, loss = 0.9892
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:37:17] iter = 0210, loss = 0.9780
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:37:26] iter = 0220, loss = 0.8278
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:37:31] iter = 0230, loss = 0.8101
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:37:35] iter = 0240, loss = 0.7306
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:37:40] iter = 0250, loss = 0.9428
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:37:44] iter = 0260, loss = 0.9698
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:37:48] iter = 0270, loss = 0.9852
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:37:52] iter = 0280, loss = 0.9586
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:37:56] iter = 0290, loss = 0.8875
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 300
+[2023-11-30 19:38:05] Evaluate: epoch = 0020 train time = 0.2690 s train loss = 0.210116 train acc = 1.0000, test acc = 0.9170
+Evaluate 1 random ConvNet, mean = 0.9170 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 300
+[2023-11-30 19:38:11] Evaluate: epoch = 0020 train time = 0.6400 s train loss = 2.112302 train acc = 0.4800, test acc = 0.3907
+Evaluate 1 random VGG11, mean = 0.3907 std = 0.0000
+-------------------------
+[2023-11-30 19:38:11] iter = 0300, loss = 0.9429
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:38:17] iter = 0310, loss = 0.9213
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:38:23] iter = 0320, loss = 0.9691
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:38:29] iter = 0330, loss = 0.9834
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:38:34] iter = 0340, loss = 0.6883
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:38:39] iter = 0350, loss = 0.9128
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:38:44] iter = 0360, loss = 0.9465
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:38:49] iter = 0370, loss = 0.9852
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:38:53] iter = 0380, loss = 0.7887
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:38:58] iter = 0390, loss = 0.7943
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 400
+[2023-11-30 19:39:07] Evaluate: epoch = 0020 train time = 0.3230 s train loss = 0.207904 train acc = 1.0000, test acc = 0.9190
+Evaluate 1 random ConvNet, mean = 0.9190 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 400
+[2023-11-30 19:39:13] Evaluate: epoch = 0020 train time = 0.6480 s train loss = 2.282684 train acc = 0.1100, test acc = 0.1029
+Evaluate 1 random VGG11, mean = 0.1029 std = 0.0000
+-------------------------
+[2023-11-30 19:39:14] iter = 0400, loss = 0.9845
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:39:18] iter = 0410, loss = 0.9793
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:39:23] iter = 0420, loss = 0.9411
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:39:28] iter = 0430, loss = 0.9542
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:39:32] iter = 0440, loss = 0.9805
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:39:37] iter = 0450, loss = 0.9486
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:39:41] iter = 0460, loss = 0.9491
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:39:45] iter = 0470, loss = 1.0082
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:39:49] iter = 0480, loss = 0.7959
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:39:54] iter = 0490, loss = 0.8389
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 500
+[2023-11-30 19:40:03] Evaluate: epoch = 0020 train time = 0.2630 s train loss = 0.284108 train acc = 1.0000, test acc = 0.9017
+Evaluate 1 random ConvNet, mean = 0.9017 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 500
+[2023-11-30 19:40:09] Evaluate: epoch = 0020 train time = 0.6090 s train loss = 2.293659 train acc = 0.1800, test acc = 0.1866
+Evaluate 1 random VGG11, mean = 0.1866 std = 0.0000
+-------------------------
+[2023-11-30 19:40:09] iter = 0500, loss = 0.9625
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:40:17] iter = 0510, loss = 0.8344
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:40:23] iter = 0520, loss = 0.9727
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:40:27] iter = 0530, loss = 0.9647
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:40:32] iter = 0540, loss = 0.9733
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:40:36] iter = 0550, loss = 0.9886
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:40:41] iter = 0560, loss = 0.9838
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:40:46] iter = 0570, loss = 0.9842
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:40:51] iter = 0580, loss = 0.9667
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:40:56] iter = 0590, loss = 0.7553
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 600
+[2023-11-30 19:41:05] Evaluate: epoch = 0020 train time = 0.3320 s train loss = 0.258274 train acc = 1.0000, test acc = 0.9247
+Evaluate 1 random ConvNet, mean = 0.9247 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 600
+[2023-11-30 19:41:11] Evaluate: epoch = 0020 train time = 0.7723 s train loss = 2.276708 train acc = 0.1100, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 19:41:11] iter = 0600, loss = 0.8939
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:41:16] iter = 0610, loss = 0.9744
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:41:20] iter = 0620, loss = 0.7684
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:41:24] iter = 0630, loss = 0.9309
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:41:29] iter = 0640, loss = 0.9752
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:41:33] iter = 0650, loss = 0.7952
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:41:38] iter = 0660, loss = 0.9857
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:41:42] iter = 0670, loss = 0.8748
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:41:48] iter = 0680, loss = 0.9254
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:41:55] iter = 0690, loss = 0.9118
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 700
+[2023-11-30 19:42:09] Evaluate: epoch = 0020 train time = 0.9430 s train loss = 0.311157 train acc = 1.0000, test acc = 0.9085
+Evaluate 1 random ConvNet, mean = 0.9085 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 700
+[2023-11-30 19:42:15] Evaluate: epoch = 0020 train time = 0.6670 s train loss = 2.281347 train acc = 0.1100, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 19:42:15] iter = 0700, loss = 0.9436
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:42:21] iter = 0710, loss = 0.9619
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:42:26] iter = 0720, loss = 0.9690
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:42:31] iter = 0730, loss = 0.9111
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:42:35] iter = 0740, loss = 0.9154
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:42:40] iter = 0750, loss = 0.9639
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:42:44] iter = 0760, loss = 0.9716
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:42:49] iter = 0770, loss = 0.9739
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:42:54] iter = 0780, loss = 0.9576
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:42:58] iter = 0790, loss = 0.9549
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 800
+[2023-11-30 19:43:08] Evaluate: epoch = 0020 train time = 0.3140 s train loss = 0.308575 train acc = 0.9900, test acc = 0.9174
+Evaluate 1 random ConvNet, mean = 0.9174 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 800
+[2023-11-30 19:43:14] Evaluate: epoch = 0020 train time = 0.8990 s train loss = 2.299487 train acc = 0.1000, test acc = 0.0982
+Evaluate 1 random VGG11, mean = 0.0982 std = 0.0000
+-------------------------
+[2023-11-30 19:43:14] iter = 0800, loss = 0.9814
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:43:23] iter = 0810, loss = 0.9686
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:43:30] iter = 0820, loss = 0.9809
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:43:35] iter = 0830, loss = 0.9797
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:43:40] iter = 0840, loss = 0.9562
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:43:44] iter = 0850, loss = 0.8117
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:43:48] iter = 0860, loss = 0.9596
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:43:52] iter = 0870, loss = 0.8502
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:43:56] iter = 0880, loss = 0.9687
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:44:00] iter = 0890, loss = 0.9797
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 900
+[2023-11-30 19:44:10] Evaluate: epoch = 0020 train time = 0.2940 s train loss = 0.335702 train acc = 0.9900, test acc = 0.9029
+Evaluate 1 random ConvNet, mean = 0.9029 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 900
+[2023-11-30 19:44:16] Evaluate: epoch = 0020 train time = 0.7089 s train loss = 2.305472 train acc = 0.1000, test acc = 0.0982
+Evaluate 1 random VGG11, mean = 0.0982 std = 0.0000
+-------------------------
+[2023-11-30 19:44:16] iter = 0900, loss = 0.9586
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:44:22] iter = 0910, loss = 0.9246
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:44:27] iter = 0920, loss = 0.7167
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:44:31] iter = 0930, loss = 0.8602
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:44:36] iter = 0940, loss = 0.9659
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:44:42] iter = 0950, loss = 0.9826
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:44:47] iter = 0960, loss = 0.9805
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:44:52] iter = 0970, loss = 0.9729
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:44:58] iter = 0980, loss = 0.9796
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:45:03] iter = 0990, loss = 0.7590
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1000
+[2023-11-30 19:45:12] Evaluate: epoch = 0020 train time = 0.3210 s train loss = 0.340468 train acc = 0.9800, test acc = 0.9084
+Evaluate 1 random ConvNet, mean = 0.9084 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1000
+[2023-11-30 19:45:18] Evaluate: epoch = 0020 train time = 0.6920 s train loss = 2.258257 train acc = 0.1100, test acc = 0.0892
+Evaluate 1 random VGG11, mean = 0.0892 std = 0.0000
+-------------------------
+[2023-11-30 19:45:19] iter = 1000, loss = 0.8106
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:45:26] iter = 1010, loss = 0.9280
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:45:35] iter = 1020, loss = 0.8886
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:45:43] iter = 1030, loss = 0.9790
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:45:53] iter = 1040, loss = 0.9537
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:46:01] iter = 1050, loss = 0.7549
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:46:09] iter = 1060, loss = 0.9291
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:46:16] iter = 1070, loss = 0.9725
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:46:23] iter = 1080, loss = 0.9316
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:46:31] iter = 1090, loss = 0.9444
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1100
+[2023-11-30 19:46:41] Evaluate: epoch = 0020 train time = 0.3145 s train loss = 0.331763 train acc = 0.9900, test acc = 0.9168
+Evaluate 1 random ConvNet, mean = 0.9168 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1100
+[2023-11-30 19:46:47] Evaluate: epoch = 0020 train time = 0.6640 s train loss = 2.292123 train acc = 0.2000, test acc = 0.1561
+Evaluate 1 random VGG11, mean = 0.1561 std = 0.0000
+-------------------------
+[2023-11-30 19:46:47] iter = 1100, loss = 0.7966
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:46:53] iter = 1110, loss = 0.9717
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:46:57] iter = 1120, loss = 0.8435
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:47:02] iter = 1130, loss = 0.9541
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:47:07] iter = 1140, loss = 0.7441
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:47:11] iter = 1150, loss = 0.9478
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:47:16] iter = 1160, loss = 0.7249
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:47:21] iter = 1170, loss = 0.8745
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:47:26] iter = 1180, loss = 0.9666
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:47:30] iter = 1190, loss = 0.9782
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1200
+[2023-11-30 19:47:42] Evaluate: epoch = 0020 train time = 0.2460 s train loss = 0.314736 train acc = 1.0000, test acc = 0.9245
+Evaluate 1 random ConvNet, mean = 0.9245 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1200
+[2023-11-30 19:47:49] Evaluate: epoch = 0020 train time = 0.7380 s train loss = 2.298348 train acc = 0.1000, test acc = 0.1009
+Evaluate 1 random VGG11, mean = 0.1009 std = 0.0000
+-------------------------
+[2023-11-30 19:47:50] iter = 1200, loss = 0.9350
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:47:54] iter = 1210, loss = 0.9118
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:47:59] iter = 1220, loss = 0.9629
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:48:03] iter = 1230, loss = 0.8690
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:48:07] iter = 1240, loss = 0.7742
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:48:11] iter = 1250, loss = 0.9577
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:48:16] iter = 1260, loss = 0.7505
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:48:20] iter = 1270, loss = 0.7425
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:48:25] iter = 1280, loss = 0.8534
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:48:30] iter = 1290, loss = 0.8241
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1300
+[2023-11-30 19:48:40] Evaluate: epoch = 0020 train time = 0.3200 s train loss = 0.333923 train acc = 0.9800, test acc = 0.9181
+Evaluate 1 random ConvNet, mean = 0.9181 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1300
+[2023-11-30 19:48:46] Evaluate: epoch = 0020 train time = 0.8315 s train loss = 2.301231 train acc = 0.1000, test acc = 0.0982
+Evaluate 1 random VGG11, mean = 0.0982 std = 0.0000
+-------------------------
+[2023-11-30 19:48:46] iter = 1300, loss = 0.8648
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:48:52] iter = 1310, loss = 0.9203
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:48:56] iter = 1320, loss = 0.9657
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:49:01] iter = 1330, loss = 0.8982
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:49:06] iter = 1340, loss = 0.8297
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:49:10] iter = 1350, loss = 0.9388
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:49:15] iter = 1360, loss = 0.8463
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:49:19] iter = 1370, loss = 0.8160
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:49:24] iter = 1380, loss = 0.8868
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:49:28] iter = 1390, loss = 0.7205
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1400
+[2023-11-30 19:49:38] Evaluate: epoch = 0020 train time = 0.3118 s train loss = 0.317458 train acc = 0.9900, test acc = 0.9185
+Evaluate 1 random ConvNet, mean = 0.9185 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1400
+[2023-11-30 19:49:44] Evaluate: epoch = 0020 train time = 0.8066 s train loss = 2.287066 train acc = 0.2500, test acc = 0.2376
+Evaluate 1 random VGG11, mean = 0.2376 std = 0.0000
+-------------------------
+[2023-11-30 19:49:44] iter = 1400, loss = 0.9138
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:49:49] iter = 1410, loss = 0.9635
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:49:54] iter = 1420, loss = 0.9365
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:49:59] iter = 1430, loss = 0.9290
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:50:04] iter = 1440, loss = 0.8381
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:50:11] iter = 1450, loss = 0.9578
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:50:15] iter = 1460, loss = 0.9724
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:50:20] iter = 1470, loss = 0.9792
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:50:25] iter = 1480, loss = 0.9040
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:50:30] iter = 1490, loss = 0.9517
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1500
+[2023-11-30 19:50:39] Evaluate: epoch = 0020 train time = 0.3500 s train loss = 0.355874 train acc = 0.9700, test acc = 0.9192
+Evaluate 1 random ConvNet, mean = 0.9192 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1500
+[2023-11-30 19:50:45] Evaluate: epoch = 0020 train time = 0.8130 s train loss = 2.282582 train acc = 0.1000, test acc = 0.0974
+Evaluate 1 random VGG11, mean = 0.0974 std = 0.0000
+-------------------------
+[2023-11-30 19:50:45] iter = 1500, loss = 0.9679
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:50:50] iter = 1510, loss = 0.9676
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:50:55] iter = 1520, loss = 0.9187
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:51:00] iter = 1530, loss = 0.7913
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:51:06] iter = 1540, loss = 0.9432
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:51:14] iter = 1550, loss = 0.9717
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:51:22] iter = 1560, loss = 0.9480
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:51:30] iter = 1570, loss = 0.8154
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:51:37] iter = 1580, loss = 0.9005
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:51:46] iter = 1590, loss = 0.7701
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1600
+[2023-11-30 19:51:57] Evaluate: epoch = 0020 train time = 0.9203 s train loss = 0.354492 train acc = 1.0000, test acc = 0.9213
+Evaluate 1 random ConvNet, mean = 0.9213 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1600
+[2023-11-30 19:52:03] Evaluate: epoch = 0020 train time = 0.6240 s train loss = 2.269990 train acc = 0.1700, test acc = 0.1471
+Evaluate 1 random VGG11, mean = 0.1471 std = 0.0000
+-------------------------
+[2023-11-30 19:52:03] iter = 1600, loss = 0.9722
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:52:08] iter = 1610, loss = 0.9175
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:52:12] iter = 1620, loss = 0.8980
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:52:17] iter = 1630, loss = 0.8761
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:52:21] iter = 1640, loss = 0.9438
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:52:26] iter = 1650, loss = 0.9187
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:52:30] iter = 1660, loss = 0.8691
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:52:35] iter = 1670, loss = 0.7543
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:52:41] iter = 1680, loss = 0.7189
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:52:49] iter = 1690, loss = 0.7674
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1700
+[2023-11-30 19:52:59] Evaluate: epoch = 0020 train time = 0.3280 s train loss = 0.350716 train acc = 0.9900, test acc = 0.9184
+Evaluate 1 random ConvNet, mean = 0.9184 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1700
+[2023-11-30 19:53:05] Evaluate: epoch = 0020 train time = 0.6980 s train loss = 2.287410 train acc = 0.1100, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 19:53:05] iter = 1700, loss = 0.7375
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:53:13] iter = 1710, loss = 0.7440
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:53:22] iter = 1720, loss = 0.7862
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:53:30] iter = 1730, loss = 0.9790
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:53:34] iter = 1740, loss = 0.9444
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:53:40] iter = 1750, loss = 0.8259
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:53:50] iter = 1760, loss = 0.7428
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:54:00] iter = 1770, loss = 0.9623
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:54:05] iter = 1780, loss = 0.8695
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:54:09] iter = 1790, loss = 0.9024
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1800
+[2023-11-30 19:54:20] Evaluate: epoch = 0020 train time = 0.3220 s train loss = 0.364163 train acc = 1.0000, test acc = 0.9255
+Evaluate 1 random ConvNet, mean = 0.9255 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1800
+[2023-11-30 19:54:25] Evaluate: epoch = 0020 train time = 0.6380 s train loss = 2.298711 train acc = 0.1100, test acc = 0.0892
+Evaluate 1 random VGG11, mean = 0.0892 std = 0.0000
+-------------------------
+[2023-11-30 19:54:26] iter = 1800, loss = 0.8556
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:54:32] iter = 1810, loss = 0.8252
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:54:38] iter = 1820, loss = 0.8592
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:54:46] iter = 1830, loss = 0.9779
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:54:50] iter = 1840, loss = 0.8614
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:54:55] iter = 1850, loss = 0.7552
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:54:59] iter = 1860, loss = 0.9368
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:55:04] iter = 1870, loss = 0.8383
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:55:08] iter = 1880, loss = 0.9686
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:55:13] iter = 1890, loss = 0.9490
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 1900
+[2023-11-30 19:55:24] Evaluate: epoch = 0020 train time = 0.3170 s train loss = 0.444568 train acc = 0.9800, test acc = 0.9116
+Evaluate 1 random ConvNet, mean = 0.9116 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 1900
+[2023-11-30 19:55:30] Evaluate: epoch = 0020 train time = 0.7230 s train loss = 2.296942 train acc = 0.1100, test acc = 0.0892
+Evaluate 1 random VGG11, mean = 0.0892 std = 0.0000
+-------------------------
+[2023-11-30 19:55:30] iter = 1900, loss = 0.8009
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:55:35] iter = 1910, loss = 0.9030
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:55:40] iter = 1920, loss = 0.9307
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:55:44] iter = 1930, loss = 0.7121
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:55:49] iter = 1940, loss = 0.9258
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:55:53] iter = 1950, loss = 0.9287
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:56:01] iter = 1960, loss = 0.7909
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:56:10] iter = 1970, loss = 0.9348
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:56:17] iter = 1980, loss = 0.8415
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:56:24] iter = 1990, loss = 0.9547
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2000
+[2023-11-30 19:56:36] Evaluate: epoch = 0020 train time = 0.6460 s train loss = 0.384611 train acc = 0.9800, test acc = 0.9284
+Evaluate 1 random ConvNet, mean = 0.9284 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2000
+[2023-11-30 19:56:43] Evaluate: epoch = 0020 train time = 0.9767 s train loss = 2.288883 train acc = 0.2800, test acc = 0.2725
+Evaluate 1 random VGG11, mean = 0.2725 std = 0.0000
+-------------------------
+[2023-11-30 19:56:44] iter = 2000, loss = 0.9030
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:56:49] iter = 2010, loss = 0.9519
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:56:54] iter = 2020, loss = 0.9670
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:57:00] iter = 2030, loss = 0.8161
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:57:05] iter = 2040, loss = 0.9725
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:57:11] iter = 2050, loss = 0.7701
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:57:16] iter = 2060, loss = 0.9098
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:57:24] iter = 2070, loss = 0.8805
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:57:32] iter = 2080, loss = 0.7985
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:57:39] iter = 2090, loss = 0.8993
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2100
+[2023-11-30 19:57:51] Evaluate: epoch = 0020 train time = 0.2540 s train loss = 0.326036 train acc = 0.9900, test acc = 0.9370
+Evaluate 1 random ConvNet, mean = 0.9370 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2100
+[2023-11-30 19:57:56] Evaluate: epoch = 0020 train time = 0.6120 s train loss = 2.298382 train acc = 0.1000, test acc = 0.1028
+Evaluate 1 random VGG11, mean = 0.1028 std = 0.0000
+-------------------------
+[2023-11-30 19:57:57] iter = 2100, loss = 0.7308
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:58:03] iter = 2110, loss = 0.9649
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:58:07] iter = 2120, loss = 0.7685
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:58:12] iter = 2130, loss = 0.7561
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:58:16] iter = 2140, loss = 0.9473
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 19:58:21] iter = 2150, loss = 0.9215
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:58:26] iter = 2160, loss = 0.9596
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:58:32] iter = 2170, loss = 0.7668
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:58:36] iter = 2180, loss = 0.9701
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:58:41] iter = 2190, loss = 0.9241
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2200
+[2023-11-30 19:58:51] Evaluate: epoch = 0020 train time = 0.3400 s train loss = 0.393784 train acc = 0.9900, test acc = 0.9216
+Evaluate 1 random ConvNet, mean = 0.9216 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2200
+[2023-11-30 19:58:57] Evaluate: epoch = 0020 train time = 0.6485 s train loss = 2.291887 train acc = 0.1600, test acc = 0.1504
+Evaluate 1 random VGG11, mean = 0.1504 std = 0.0000
+-------------------------
+[2023-11-30 19:58:58] iter = 2200, loss = 0.8551
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 19:59:03] iter = 2210, loss = 0.9704
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 19:59:07] iter = 2220, loss = 0.9265
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 19:59:12] iter = 2230, loss = 0.9747
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 19:59:17] iter = 2240, loss = 0.7823
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 19:59:21] iter = 2250, loss = 0.9714
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 19:59:26] iter = 2260, loss = 0.7797
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 19:59:30] iter = 2270, loss = 0.9287
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 19:59:35] iter = 2280, loss = 0.9410
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 19:59:40] iter = 2290, loss = 0.7771
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2300
+[2023-11-30 19:59:52] Evaluate: epoch = 0020 train time = 0.4655 s train loss = 0.536228 train acc = 0.9800, test acc = 0.9086
+Evaluate 1 random ConvNet, mean = 0.9086 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2300
+[2023-11-30 19:59:58] Evaluate: epoch = 0020 train time = 0.6930 s train loss = 2.293149 train acc = 0.1400, test acc = 0.0905
+Evaluate 1 random VGG11, mean = 0.0905 std = 0.0000
+-------------------------
+[2023-11-30 19:59:58] iter = 2300, loss = 0.9260
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:00:03] iter = 2310, loss = 0.9604
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:00:07] iter = 2320, loss = 0.9207
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:00:11] iter = 2330, loss = 0.9599
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:00:16] iter = 2340, loss = 0.7550
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:00:20] iter = 2350, loss = 0.9631
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:00:25] iter = 2360, loss = 0.7865
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:00:29] iter = 2370, loss = 0.9371
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:00:34] iter = 2380, loss = 0.9649
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:00:39] iter = 2390, loss = 0.8776
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2400
+[2023-11-30 20:00:49] Evaluate: epoch = 0020 train time = 0.3260 s train loss = 0.382383 train acc = 1.0000, test acc = 0.9231
+Evaluate 1 random ConvNet, mean = 0.9231 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2400
+[2023-11-30 20:00:55] Evaluate: epoch = 0020 train time = 0.6900 s train loss = 2.290090 train acc = 0.1000, test acc = 0.0982
+Evaluate 1 random VGG11, mean = 0.0982 std = 0.0000
+-------------------------
+[2023-11-30 20:00:55] iter = 2400, loss = 0.9547
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:01:00] iter = 2410, loss = 0.9088
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:01:05] iter = 2420, loss = 0.8782
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:01:10] iter = 2430, loss = 0.9311
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:01:14] iter = 2440, loss = 0.7854
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:01:18] iter = 2450, loss = 0.7743
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:01:23] iter = 2460, loss = 0.9353
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:01:27] iter = 2470, loss = 0.7256
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:01:32] iter = 2480, loss = 0.9413
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:01:36] iter = 2490, loss = 0.9505
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2500
+[2023-11-30 20:01:45] Evaluate: epoch = 0020 train time = 0.2650 s train loss = 0.297994 train acc = 1.0000, test acc = 0.9376
+Evaluate 1 random ConvNet, mean = 0.9376 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2500
+[2023-11-30 20:01:51] Evaluate: epoch = 0020 train time = 0.6290 s train loss = 2.296278 train acc = 0.1000, test acc = 0.1135
+Evaluate 1 random VGG11, mean = 0.1135 std = 0.0000
+-------------------------
+[2023-11-30 20:01:52] iter = 2500, loss = 0.9670
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:01:56] iter = 2510, loss = 0.8512
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:02:05] iter = 2520, loss = 0.7415
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:02:13] iter = 2530, loss = 0.8891
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:02:19] iter = 2540, loss = 0.9595
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:02:26] iter = 2550, loss = 0.9635
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:02:31] iter = 2560, loss = 0.7387
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:02:36] iter = 2570, loss = 0.7448
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:02:41] iter = 2580, loss = 0.8331
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:02:45] iter = 2590, loss = 0.8599
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2600
+[2023-11-30 20:02:55] Evaluate: epoch = 0020 train time = 0.3230 s train loss = 0.419685 train acc = 0.9800, test acc = 0.9331
+Evaluate 1 random ConvNet, mean = 0.9331 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2600
+[2023-11-30 20:03:00] Evaluate: epoch = 0020 train time = 0.6820 s train loss = 2.292571 train acc = 0.1000, test acc = 0.1009
+Evaluate 1 random VGG11, mean = 0.1009 std = 0.0000
+-------------------------
+[2023-11-30 20:03:01] iter = 2600, loss = 0.9587
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:03:09] iter = 2610, loss = 0.9236
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:03:17] iter = 2620, loss = 0.8819
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:03:26] iter = 2630, loss = 0.8722
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:03:34] iter = 2640, loss = 0.8978
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:03:39] iter = 2650, loss = 0.7933
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:03:43] iter = 2660, loss = 0.8429
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:03:47] iter = 2670, loss = 0.9442
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:03:52] iter = 2680, loss = 0.8068
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:03:56] iter = 2690, loss = 0.7871
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2700
+[2023-11-30 20:04:05] Evaluate: epoch = 0020 train time = 0.2720 s train loss = 0.423551 train acc = 0.9900, test acc = 0.9207
+Evaluate 1 random ConvNet, mean = 0.9207 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2700
+[2023-11-30 20:04:11] Evaluate: epoch = 0020 train time = 0.6555 s train loss = 2.300033 train acc = 0.1300, test acc = 0.1071
+Evaluate 1 random VGG11, mean = 0.1071 std = 0.0000
+-------------------------
+[2023-11-30 20:04:12] iter = 2700, loss = 0.7895
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:04:16] iter = 2710, loss = 0.9024
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:04:21] iter = 2720, loss = 0.9418
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:04:26] iter = 2730, loss = 0.9418
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:04:30] iter = 2740, loss = 0.7037
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:04:35] iter = 2750, loss = 0.7539
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:04:40] iter = 2760, loss = 0.8174
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:04:45] iter = 2770, loss = 0.8664
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:04:50] iter = 2780, loss = 0.8378
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:04:55] iter = 2790, loss = 0.9010
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2800
+[2023-11-30 20:05:05] Evaluate: epoch = 0020 train time = 0.3292 s train loss = 0.397048 train acc = 0.9800, test acc = 0.9120
+Evaluate 1 random ConvNet, mean = 0.9120 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2800
+[2023-11-30 20:05:12] Evaluate: epoch = 0020 train time = 1.2849 s train loss = 2.288907 train acc = 0.1100, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 20:05:12] iter = 2800, loss = 0.7576
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:05:17] iter = 2810, loss = 0.7732
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:05:22] iter = 2820, loss = 0.8020
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:05:26] iter = 2830, loss = 0.9566
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:05:30] iter = 2840, loss = 0.8932
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:05:35] iter = 2850, loss = 0.9616
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:05:39] iter = 2860, loss = 0.9574
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:05:44] iter = 2870, loss = 0.9482
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:05:48] iter = 2880, loss = 0.7127
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:05:52] iter = 2890, loss = 0.9115
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 2900
+[2023-11-30 20:06:01] Evaluate: epoch = 0020 train time = 0.2680 s train loss = 0.481427 train acc = 0.9900, test acc = 0.9135
+Evaluate 1 random ConvNet, mean = 0.9135 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 2900
+[2023-11-30 20:06:07] Evaluate: epoch = 0020 train time = 0.6060 s train loss = 2.289918 train acc = 0.1800, test acc = 0.1255
+Evaluate 1 random VGG11, mean = 0.1255 std = 0.0000
+-------------------------
+[2023-11-30 20:06:07] iter = 2900, loss = 0.7867
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:06:12] iter = 2910, loss = 0.8424
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:06:16] iter = 2920, loss = 0.8932
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:06:21] iter = 2930, loss = 0.8126
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:06:26] iter = 2940, loss = 0.9592
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:06:31] iter = 2950, loss = 0.7828
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:06:36] iter = 2960, loss = 0.8920
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:06:43] iter = 2970, loss = 0.9417
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:06:50] iter = 2980, loss = 0.8197
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:06:55] iter = 2990, loss = 0.7077
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3000
+[2023-11-30 20:07:05] Evaluate: epoch = 0020 train time = 0.3310 s train loss = 0.405271 train acc = 0.9800, test acc = 0.9295
+Evaluate 1 random ConvNet, mean = 0.9295 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3000
+[2023-11-30 20:07:11] Evaluate: epoch = 0020 train time = 0.6870 s train loss = 2.292537 train acc = 0.1600, test acc = 0.1025
+Evaluate 1 random VGG11, mean = 0.1025 std = 0.0000
+-------------------------
+[2023-11-30 20:07:12] iter = 3000, loss = 0.7213
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:07:17] iter = 3010, loss = 0.8773
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:07:21] iter = 3020, loss = 0.8601
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:07:26] iter = 3030, loss = 0.8779
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:07:30] iter = 3040, loss = 0.9557
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:07:35] iter = 3050, loss = 0.7163
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:07:40] iter = 3060, loss = 0.9531
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:07:44] iter = 3070, loss = 0.9245
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:07:50] iter = 3080, loss = 0.8911
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:07:57] iter = 3090, loss = 0.9402
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3100
+[2023-11-30 20:08:06] Evaluate: epoch = 0020 train time = 0.2650 s train loss = 0.410639 train acc = 0.9900, test acc = 0.9214
+Evaluate 1 random ConvNet, mean = 0.9214 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3100
+[2023-11-30 20:08:12] Evaluate: epoch = 0020 train time = 0.6365 s train loss = 2.306708 train acc = 0.1000, test acc = 0.0982
+Evaluate 1 random VGG11, mean = 0.0982 std = 0.0000
+-------------------------
+[2023-11-30 20:08:13] iter = 3100, loss = 0.8031
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:08:20] iter = 3110, loss = 0.9238
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:08:26] iter = 3120, loss = 0.8587
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:08:33] iter = 3130, loss = 0.8891
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:08:38] iter = 3140, loss = 0.7935
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:08:43] iter = 3150, loss = 0.9393
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:08:47] iter = 3160, loss = 0.9111
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:08:52] iter = 3170, loss = 0.9505
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:08:57] iter = 3180, loss = 0.9081
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:09:02] iter = 3190, loss = 0.8110
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3200
+[2023-11-30 20:09:11] Evaluate: epoch = 0020 train time = 0.3180 s train loss = 0.447265 train acc = 0.9700, test acc = 0.9159
+Evaluate 1 random ConvNet, mean = 0.9159 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3200
+[2023-11-30 20:09:17] Evaluate: epoch = 0020 train time = 0.6814 s train loss = 2.290190 train acc = 0.1100, test acc = 0.1010
+Evaluate 1 random VGG11, mean = 0.1010 std = 0.0000
+-------------------------
+[2023-11-30 20:09:18] iter = 3200, loss = 0.8442
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:09:22] iter = 3210, loss = 0.9371
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:09:26] iter = 3220, loss = 0.9147
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:09:31] iter = 3230, loss = 0.9516
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:09:35] iter = 3240, loss = 0.8430
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:09:41] iter = 3250, loss = 0.8536
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:09:51] iter = 3260, loss = 0.8989
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:10:00] iter = 3270, loss = 0.7965
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:10:07] iter = 3280, loss = 0.8129
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:10:13] iter = 3290, loss = 0.9151
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3300
+[2023-11-30 20:10:24] Evaluate: epoch = 0020 train time = 0.3350 s train loss = 0.422545 train acc = 0.9900, test acc = 0.9214
+Evaluate 1 random ConvNet, mean = 0.9214 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3300
+[2023-11-30 20:10:30] Evaluate: epoch = 0020 train time = 0.8100 s train loss = 2.285305 train acc = 0.1900, test acc = 0.1489
+Evaluate 1 random VGG11, mean = 0.1489 std = 0.0000
+-------------------------
+[2023-11-30 20:10:31] iter = 3300, loss = 0.8980
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:10:36] iter = 3310, loss = 0.7792
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:10:43] iter = 3320, loss = 0.8518
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:10:52] iter = 3330, loss = 0.9522
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:10:58] iter = 3340, loss = 0.7642
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:11:02] iter = 3350, loss = 0.9405
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:11:07] iter = 3360, loss = 0.9059
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:11:11] iter = 3370, loss = 0.7636
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:11:16] iter = 3380, loss = 0.9551
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:11:21] iter = 3390, loss = 0.8618
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3400
+[2023-11-30 20:11:30] Evaluate: epoch = 0020 train time = 0.3240 s train loss = 0.419667 train acc = 0.9900, test acc = 0.9175
+Evaluate 1 random ConvNet, mean = 0.9175 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3400
+[2023-11-30 20:11:36] Evaluate: epoch = 0020 train time = 0.8915 s train loss = 2.283244 train acc = 0.1100, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 20:11:36] iter = 3400, loss = 0.7324
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:11:41] iter = 3410, loss = 0.9589
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:11:45] iter = 3420, loss = 0.9231
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:11:49] iter = 3430, loss = 0.7665
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:11:53] iter = 3440, loss = 0.7897
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:11:57] iter = 3450, loss = 0.9057
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:12:02] iter = 3460, loss = 0.8923
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:12:06] iter = 3470, loss = 0.9467
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:12:10] iter = 3480, loss = 0.9445
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:12:15] iter = 3490, loss = 0.9332
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3500
+[2023-11-30 20:12:25] Evaluate: epoch = 0020 train time = 0.3320 s train loss = 0.412114 train acc = 0.9900, test acc = 0.9345
+Evaluate 1 random ConvNet, mean = 0.9345 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3500
+[2023-11-30 20:12:31] Evaluate: epoch = 0020 train time = 0.9215 s train loss = 2.304905 train acc = 0.1100, test acc = 0.1035
+Evaluate 1 random VGG11, mean = 0.1035 std = 0.0000
+-------------------------
+[2023-11-30 20:12:31] iter = 3500, loss = 0.9272
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:12:37] iter = 3510, loss = 0.9696
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:12:41] iter = 3520, loss = 0.8916
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:12:46] iter = 3530, loss = 0.9430
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:12:51] iter = 3540, loss = 0.9070
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:12:56] iter = 3550, loss = 0.9015
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:13:00] iter = 3560, loss = 0.7321
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:13:05] iter = 3570, loss = 0.9356
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:13:10] iter = 3580, loss = 0.9210
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:13:15] iter = 3590, loss = 0.7206
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3600
+[2023-11-30 20:13:27] Evaluate: epoch = 0020 train time = 0.4915 s train loss = 0.451001 train acc = 0.9900, test acc = 0.8806
+Evaluate 1 random ConvNet, mean = 0.8806 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3600
+[2023-11-30 20:13:33] Evaluate: epoch = 0020 train time = 0.6798 s train loss = 2.300452 train acc = 0.1200, test acc = 0.0892
+Evaluate 1 random VGG11, mean = 0.0892 std = 0.0000
+-------------------------
+[2023-11-30 20:13:33] iter = 3600, loss = 0.6881
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:13:38] iter = 3610, loss = 0.9372
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:13:42] iter = 3620, loss = 0.8084
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:13:46] iter = 3630, loss = 0.7138
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:13:51] iter = 3640, loss = 0.6954
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:13:55] iter = 3650, loss = 0.7936
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:13:59] iter = 3660, loss = 0.8905
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:14:03] iter = 3670, loss = 0.8158
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:14:07] iter = 3680, loss = 0.7944
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:14:12] iter = 3690, loss = 0.7155
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3700
+[2023-11-30 20:14:23] Evaluate: epoch = 0020 train time = 0.3215 s train loss = 0.407025 train acc = 1.0000, test acc = 0.9294
+Evaluate 1 random ConvNet, mean = 0.9294 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3700
+[2023-11-30 20:14:29] Evaluate: epoch = 0020 train time = 0.8260 s train loss = 2.300186 train acc = 0.1000, test acc = 0.1135
+Evaluate 1 random VGG11, mean = 0.1135 std = 0.0000
+-------------------------
+[2023-11-30 20:14:29] iter = 3700, loss = 0.8926
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:14:36] iter = 3710, loss = 0.7438
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:14:41] iter = 3720, loss = 0.8807
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:14:47] iter = 3730, loss = 0.8736
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:14:52] iter = 3740, loss = 0.8333
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:15:02] iter = 3750, loss = 0.7892
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:15:09] iter = 3760, loss = 0.8710
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:15:17] iter = 3770, loss = 0.7083
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:15:22] iter = 3780, loss = 0.9135
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:15:26] iter = 3790, loss = 0.9130
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3800
+[2023-11-30 20:15:36] Evaluate: epoch = 0020 train time = 0.3230 s train loss = 0.408707 train acc = 1.0000, test acc = 0.8953
+Evaluate 1 random ConvNet, mean = 0.8953 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3800
+[2023-11-30 20:15:42] Evaluate: epoch = 0020 train time = 0.7079 s train loss = 2.295387 train acc = 0.1000, test acc = 0.0974
+Evaluate 1 random VGG11, mean = 0.0974 std = 0.0000
+-------------------------
+[2023-11-30 20:15:43] iter = 3800, loss = 0.8726
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:15:47] iter = 3810, loss = 0.8112
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:15:51] iter = 3820, loss = 0.8700
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:15:56] iter = 3830, loss = 0.9559
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:16:00] iter = 3840, loss = 0.9456
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:16:04] iter = 3850, loss = 0.8771
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:16:08] iter = 3860, loss = 0.7649
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:16:13] iter = 3870, loss = 0.8349
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:16:18] iter = 3880, loss = 0.9129
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:16:22] iter = 3890, loss = 0.9215
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 3900
+[2023-11-30 20:16:31] Evaluate: epoch = 0020 train time = 0.3260 s train loss = 0.469172 train acc = 0.9700, test acc = 0.9273
+Evaluate 1 random ConvNet, mean = 0.9273 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 3900
+[2023-11-30 20:16:38] Evaluate: epoch = 0020 train time = 0.8310 s train loss = 2.285176 train acc = 0.1100, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 20:16:38] iter = 3900, loss = 0.7261
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:16:43] iter = 3910, loss = 0.9664
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:16:48] iter = 3920, loss = 0.8122
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:16:53] iter = 3930, loss = 0.7619
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:16:58] iter = 3940, loss = 0.7143
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:17:02] iter = 3950, loss = 0.7018
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:17:07] iter = 3960, loss = 0.8847
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:17:12] iter = 3970, loss = 0.8995
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:17:16] iter = 3980, loss = 0.7033
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:17:20] iter = 3990, loss = 0.9226
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4000
+[2023-11-30 20:17:29] Evaluate: epoch = 0020 train time = 0.3151 s train loss = 0.418851 train acc = 0.9900, test acc = 0.9235
+Evaluate 1 random ConvNet, mean = 0.9235 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4000
+[2023-11-30 20:17:35] Evaluate: epoch = 0020 train time = 0.6766 s train loss = 2.296907 train acc = 0.1200, test acc = 0.0892
+Evaluate 1 random VGG11, mean = 0.0892 std = 0.0000
+-------------------------
+[2023-11-30 20:17:36] iter = 4000, loss = 0.8704
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:17:40] iter = 4010, loss = 0.8946
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:17:45] iter = 4020, loss = 0.6697
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:17:49] iter = 4030, loss = 0.7050
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:17:56] iter = 4040, loss = 0.9548
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:18:02] iter = 4050, loss = 0.7768
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:18:10] iter = 4060, loss = 0.9386
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:18:15] iter = 4070, loss = 0.7286
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:18:20] iter = 4080, loss = 0.9426
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:18:25] iter = 4090, loss = 0.7453
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4100
+[2023-11-30 20:18:35] Evaluate: epoch = 0020 train time = 0.3880 s train loss = 0.434750 train acc = 1.0000, test acc = 0.9337
+Evaluate 1 random ConvNet, mean = 0.9337 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4100
+[2023-11-30 20:18:41] Evaluate: epoch = 0020 train time = 0.6797 s train loss = 2.297829 train acc = 0.1000, test acc = 0.0982
+Evaluate 1 random VGG11, mean = 0.0982 std = 0.0000
+-------------------------
+[2023-11-30 20:18:42] iter = 4100, loss = 0.8215
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:18:49] iter = 4110, loss = 0.7053
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:18:56] iter = 4120, loss = 0.7522
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:19:01] iter = 4130, loss = 0.8086
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:19:05] iter = 4140, loss = 0.8927
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:19:12] iter = 4150, loss = 0.8924
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:19:20] iter = 4160, loss = 0.8439
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:19:29] iter = 4170, loss = 0.8470
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:19:36] iter = 4180, loss = 0.6778
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:19:44] iter = 4190, loss = 0.9446
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4200
+[2023-11-30 20:19:59] Evaluate: epoch = 0020 train time = 0.8400 s train loss = 0.384446 train acc = 1.0000, test acc = 0.9153
+Evaluate 1 random ConvNet, mean = 0.9153 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4200
+[2023-11-30 20:20:04] Evaluate: epoch = 0020 train time = 0.6569 s train loss = 2.289648 train acc = 0.1100, test acc = 0.0892
+Evaluate 1 random VGG11, mean = 0.0892 std = 0.0000
+-------------------------
+[2023-11-30 20:20:05] iter = 4200, loss = 0.8314
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:20:10] iter = 4210, loss = 0.9517
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:20:14] iter = 4220, loss = 0.9154
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:20:19] iter = 4230, loss = 0.8459
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:20:23] iter = 4240, loss = 0.7604
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:20:28] iter = 4250, loss = 0.7467
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:20:33] iter = 4260, loss = 0.9073
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:20:37] iter = 4270, loss = 0.6983
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:20:42] iter = 4280, loss = 0.9266
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:20:47] iter = 4290, loss = 0.8709
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4300
+[2023-11-30 20:20:56] Evaluate: epoch = 0020 train time = 0.3220 s train loss = 0.429214 train acc = 1.0000, test acc = 0.9157
+Evaluate 1 random ConvNet, mean = 0.9157 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4300
+[2023-11-30 20:21:02] Evaluate: epoch = 0020 train time = 0.6830 s train loss = 2.294441 train acc = 0.1200, test acc = 0.0892
+Evaluate 1 random VGG11, mean = 0.0892 std = 0.0000
+-------------------------
+[2023-11-30 20:21:02] iter = 4300, loss = 0.9551
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:21:07] iter = 4310, loss = 0.9415
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:21:12] iter = 4320, loss = 0.8253
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:21:16] iter = 4330, loss = 0.9025
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:21:20] iter = 4340, loss = 0.7490
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:21:25] iter = 4350, loss = 0.7505
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:21:29] iter = 4360, loss = 0.9507
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:21:33] iter = 4370, loss = 0.7901
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:21:38] iter = 4380, loss = 0.8098
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:21:42] iter = 4390, loss = 0.7408
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4400
+[2023-11-30 20:21:56] Evaluate: epoch = 0020 train time = 0.9440 s train loss = 0.462386 train acc = 0.9900, test acc = 0.9321
+Evaluate 1 random ConvNet, mean = 0.9321 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4400
+[2023-11-30 20:22:02] Evaluate: epoch = 0020 train time = 0.6710 s train loss = 2.289089 train acc = 0.1100, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 20:22:02] iter = 4400, loss = 0.9503
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:22:07] iter = 4410, loss = 0.6972
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:22:11] iter = 4420, loss = 0.7331
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:22:16] iter = 4430, loss = 0.8186
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:22:21] iter = 4440, loss = 0.7211
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:22:26] iter = 4450, loss = 0.8441
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:22:30] iter = 4460, loss = 0.7206
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:22:35] iter = 4470, loss = 0.8523
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:22:40] iter = 4480, loss = 0.8376
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:22:45] iter = 4490, loss = 0.9221
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4500
+[2023-11-30 20:22:54] Evaluate: epoch = 0020 train time = 0.3100 s train loss = 0.431934 train acc = 0.9900, test acc = 0.9251
+Evaluate 1 random ConvNet, mean = 0.9251 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4500
+[2023-11-30 20:23:00] Evaluate: epoch = 0020 train time = 0.7160 s train loss = 2.299409 train acc = 0.1200, test acc = 0.0980
+Evaluate 1 random VGG11, mean = 0.0980 std = 0.0000
+-------------------------
+[2023-11-30 20:23:01] iter = 4500, loss = 0.8561
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:23:06] iter = 4510, loss = 0.9492
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:23:10] iter = 4520, loss = 0.8680
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:23:15] iter = 4530, loss = 0.9547
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:23:19] iter = 4540, loss = 0.7242
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:23:24] iter = 4550, loss = 0.9231
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:23:28] iter = 4560, loss = 0.8302
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:23:33] iter = 4570, loss = 0.8198
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:23:37] iter = 4580, loss = 0.9394
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:23:42] iter = 4590, loss = 0.8840
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4600
+[2023-11-30 20:23:51] Evaluate: epoch = 0020 train time = 0.3360 s train loss = 0.533290 train acc = 0.9800, test acc = 0.8904
+Evaluate 1 random ConvNet, mean = 0.8904 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4600
+[2023-11-30 20:23:57] Evaluate: epoch = 0020 train time = 0.7950 s train loss = 2.291206 train acc = 0.1000, test acc = 0.0982
+Evaluate 1 random VGG11, mean = 0.0982 std = 0.0000
+-------------------------
+[2023-11-30 20:23:58] iter = 4600, loss = 0.8979
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:24:06] iter = 4610, loss = 0.7753
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:24:10] iter = 4620, loss = 0.8784
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:24:15] iter = 4630, loss = 0.9685
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:24:20] iter = 4640, loss = 0.7324
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:24:24] iter = 4650, loss = 0.6734
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:24:29] iter = 4660, loss = 0.9399
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:24:35] iter = 4670, loss = 0.9078
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:24:42] iter = 4680, loss = 0.9367
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:24:47] iter = 4690, loss = 0.8914
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4700
+[2023-11-30 20:24:57] Evaluate: epoch = 0020 train time = 0.3170 s train loss = 0.451980 train acc = 1.0000, test acc = 0.9174
+Evaluate 1 random ConvNet, mean = 0.9174 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4700
+[2023-11-30 20:25:02] Evaluate: epoch = 0020 train time = 0.6913 s train loss = 2.257729 train acc = 0.2100, test acc = 0.1345
+Evaluate 1 random VGG11, mean = 0.1345 std = 0.0000
+-------------------------
+[2023-11-30 20:25:03] iter = 4700, loss = 0.9573
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:25:08] iter = 4710, loss = 0.9149
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:25:12] iter = 4720, loss = 0.8901
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:25:17] iter = 4730, loss = 0.7879
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:25:21] iter = 4740, loss = 0.9004
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:25:26] iter = 4750, loss = 0.9549
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:25:30] iter = 4760, loss = 0.8843
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:25:34] iter = 4770, loss = 0.9422
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:25:39] iter = 4780, loss = 0.9107
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:25:43] iter = 4790, loss = 0.9610
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4800
+[2023-11-30 20:25:52] Evaluate: epoch = 0020 train time = 0.2640 s train loss = 0.517033 train acc = 0.9800, test acc = 0.9156
+Evaluate 1 random ConvNet, mean = 0.9156 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4800
+[2023-11-30 20:25:58] Evaluate: epoch = 0020 train time = 0.6910 s train loss = 2.291325 train acc = 0.1900, test acc = 0.1453
+Evaluate 1 random VGG11, mean = 0.1453 std = 0.0000
+-------------------------
+[2023-11-30 20:25:58] iter = 4800, loss = 0.8575
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:26:02] iter = 4810, loss = 0.7216
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:26:06] iter = 4820, loss = 0.7631
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+[2023-11-30 20:26:11] iter = 4830, loss = 0.9012
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:26:16] iter = 4840, loss = 0.9282
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:26:21] iter = 4850, loss = 0.6950
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:26:27] iter = 4860, loss = 0.8792
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:26:32] iter = 4870, loss = 0.8988
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:26:36] iter = 4880, loss = 0.7108
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:26:42] iter = 4890, loss = 0.7776
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_8.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 4900
+[2023-11-30 20:26:51] Evaluate: epoch = 0020 train time = 0.3190 s train loss = 0.460886 train acc = 0.9900, test acc = 0.9324
+Evaluate 1 random ConvNet, mean = 0.9324 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 4900
+[2023-11-30 20:26:57] Evaluate: epoch = 0020 train time = 0.6865 s train loss = 2.272814 train acc = 0.2100, test acc = 0.2024
+Evaluate 1 random VGG11, mean = 0.2024 std = 0.0000
+-------------------------
+[2023-11-30 20:26:58] iter = 4900, loss = 0.7246
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_6.pt
+[2023-11-30 20:27:03] iter = 4910, loss = 0.9434
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_9.pt
+[2023-11-30 20:27:08] iter = 4920, loss = 0.6983
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_5.pt
+[2023-11-30 20:27:13] iter = 4930, loss = 0.8932
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_7.pt
+[2023-11-30 20:27:18] iter = 4940, loss = 0.8496
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_4.pt
+[2023-11-30 20:27:22] iter = 4950, loss = 0.8256
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_1.pt
+[2023-11-30 20:27:27] iter = 4960, loss = 0.9424
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+[2023-11-30 20:27:31] iter = 4970, loss = 0.7002
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_0.pt
+[2023-11-30 20:27:36] iter = 4980, loss = 0.9027
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_3.pt
+[2023-11-30 20:27:40] iter = 4990, loss = 0.8356
+loading file ../buffer/buffers/old_experts\MNIST\ConvNet\replay_buffer_2.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 5000
+[2023-11-30 20:27:49] Evaluate: epoch = 0020 train time = 0.2660 s train loss = 0.463606 train acc = 0.9900, test acc = 0.9367
+Evaluate 1 random ConvNet, mean = 0.9367 std = 0.0000
+-------------------------
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = VGG11, iteration = 5000
+[2023-11-30 20:27:55] Evaluate: epoch = 0020 train time = 0.6470 s train loss = 2.293563 train acc = 0.1000, test acc = 0.1009
+Evaluate 1 random VGG11, mean = 0.1009 std = 0.0000
+-------------------------
+[2023-11-30 20:27:55] iter = 5000, loss = 0.7024
